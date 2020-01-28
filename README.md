@@ -1,9 +1,9 @@
 # SFU SURGE WEBSITE!
 
-## Resources:
+
+## React JS Resources:
 - [React JS](https://reactjs.org/) website
 - [Build with React](http://buildwithreact.com/) tutorials
-
 
 
 - Video Tutorials:
