@@ -53,3 +53,7 @@ figcaption {
   font-weight: bold;
   font-size: 18px;
 }
+
+.boldHeader {
+  font-weight: 800;
+}

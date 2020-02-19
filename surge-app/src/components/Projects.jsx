@@ -30,7 +30,7 @@ class Projects extends Component {
         </div>
         <div className="container-fluid p-5" id="bluebg">
           <section id="projectExecs">
-            <h2>Project Executives</h2>
+            <h2 className='boldHeader'>Project Executives</h2>
             <div className="row">
               <div className="col-sm">
                 <figure className="figure">
