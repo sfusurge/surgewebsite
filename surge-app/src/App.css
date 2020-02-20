@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Barlow:400,600&display=swap");
 
 h1,
-h2,
 figcaption,
 p {
   font-family: "Barlow", sans-serif;
@@ -11,12 +10,12 @@ p {
 p {
   text-align: left;
   padding-top: 20%;
+  line-height: 40px;
 }
 
-h2 {
+h1 {
   text-align: left;
   font-style: normal;
-  font-weight: 600;
   font-size: 36px;
 }
 
@@ -50,6 +49,10 @@ figure img {
 }
 
 figcaption {
-  font-weight: bold;
   font-size: 18px;
+}
+
+.boldHeader,
+.figure-caption {
+  font-weight: 600;
 }

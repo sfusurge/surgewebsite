@@ -30,55 +30,43 @@ class Projects extends Component {
         </div>
         <div className="container-fluid p-5" id="bluebg">
           <section id="projectExecs">
-            <h2>Project Executives</h2>
+            <h1 className="boldHeader">Project Executives</h1>
             <div className="row">
               <div className="col-sm">
                 <figure className="figure">
                   <img className="figure-img" src={rect} alt="" />
-                  <figcaption className="figure-caption text-center">
-                    Grace
-                  </figcaption>
+                  <figcaption className="figure-caption">Grace</figcaption>
                 </figure>
               </div>
               <div className="col-sm">
                 <figure className="figure">
                   <img className="figure-img" src={rect} alt=""></img>
-                  <figcaption className="figure-caption text-center">
-                    Name
-                  </figcaption>
+                  <figcaption className="figure-caption">Name</figcaption>
                 </figure>
               </div>
               <div className="col-sm">
                 <figure className="figure">
                   <img className="figure-img" src={rect} alt=""></img>
-                  <figcaption className="figure-caption text-center">
-                    Name
-                  </figcaption>
+                  <figcaption className="figure-caption">Name</figcaption>
                 </figure>
               </div>
               <div className="w-100"></div>
               <div className="col-sm">
                 <figure className="figure">
                   <img className="figure-img" src={rect} alt=""></img>
-                  <figcaption className="figure-caption text-center">
-                    Name
-                  </figcaption>
+                  <figcaption className="figure-caption">Name</figcaption>
                 </figure>
               </div>
               <div className="col-sm">
                 <figure className="figure">
                   <img className="figure-img" src={rect} alt=""></img>
-                  <figcaption className="figure-caption text-center">
-                    Name
-                  </figcaption>
+                  <figcaption className="figure-caption">Name</figcaption>
                 </figure>
               </div>
               <div className="col-sm">
                 <figure className="figure">
                   <img className="figure-img" src={rect} alt=""></img>
-                  <figcaption className="figure-caption text-center">
-                    Name
-                  </figcaption>
+                  <figcaption className="figure-caption">Name</figcaption>
                 </figure>
               </div>
             </div>
@@ -86,7 +74,7 @@ class Projects extends Component {
         </div>
         <div className="container-fluid p-5">
           <section>
-            <h2>Our Projects</h2>
+            <h1 className="boldHeader">Our Projects</h1>
           </section>
         </div>
       </React.Fragment>
