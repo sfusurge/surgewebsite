@@ -1,5 +1,11 @@
 @import url("https://fonts.googleapis.com/css?family=Barlow:400,600&display=swap");
 
+#projectsHeaderImg {
+  background-image: url("assets/projectsHeader.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
 h1,
 figcaption,
 p {
@@ -30,6 +36,7 @@ section {
 
 #pgHeading {
   padding: 18%;
+  padding-top: 22.5%;
 }
 
 .row {

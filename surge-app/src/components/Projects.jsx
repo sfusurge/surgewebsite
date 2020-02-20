@@ -8,14 +8,17 @@ class Projects extends Component {
   render() {
     return (
       <React.Fragment>
-        <div className="container-fluid">
+        <div className="container-fluid" id="projectsHeaderImg">
           <section id="pgHeading">
-            <img
-              className="img-fluid"
-              src={projectsTitle}
-              alt=""
-              id="pageTitle"
-            />
+            <div id="overlay-div">
+              <img
+                className="img-fluid"
+                src={projectsTitle}
+                alt=""
+                id="pageTitle"
+              />
+            </div>
+
             <p>
               Project Hub is is a student-run software engineering team devoted
               to building software projects in a collaborative and professional
