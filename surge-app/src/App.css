@@ -129,3 +129,8 @@ figcaption {
   padding-top: 4%;
   text-align: center;
 }
+
+.boldHeader,
+.figure-caption {
+  font-weight: 600;
+}

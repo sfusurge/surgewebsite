@@ -19,23 +19,45 @@ class About extends Component {
               />
             </div>
 
-            <p className="description">
-              SFU Surge is an all-inclusive organization to promote{" "}
-              <b>curiosity and excitement for a future in technology,</b> while
-              guiding students on their paths to <b>career success</b>. An
-              innovative community which empowers students to gain access to
-              readily available networking, and connect their shared experiences
-              with designers, engineers, programmers and developers alike. We
-              want to make an impact to offer resources, support, and
-              opportunities to ensure each <b>project</b> is presentable to
-              potential employers – and give students more experience before
-              they head out into the real world. The <b>events</b> challenge
-              participants to be ambitious about their process and end goals,
-              with plenty of room to improve and accelerate. Guidance in{" "}
-              <b>mentorship sessions, mixers,</b> and <b>talks</b> help students
-              succeed and encourage them through personal and inspirational
-              connections.
-            </p>
+            <div>
+              <p className="description">
+                SFU Surge is an all-inclusive organization to promote{" "}
+                <b>curiosity and excitement for a future in technology,</b>{" "}
+                while guiding students on their paths to <b>career success</b>.
+                An innovative community which empowers students to gain access
+                to readily available networking, and connect their shared
+                experiences with designers, engineers, programmers and
+                developers alike. We want to make an impact to offer resources,
+                support, and opportunities to ensure each <b>project</b> is
+                presentable to potential employers – and give students more
+                experience before they head out into the real world. The{" "}
+                <b>events</b> challenge participants to be ambitious about their
+                process and end goals, with plenty of room to improve and
+                accelerate. Guidance in <b>mentorship sessions, mixers,</b> and{" "}
+                <b>talks</b> help students succeed and encourage them through
+                personal and inspirational connections.
+              </p>
+            </div>
+
+            <div>
+              <p className="description">
+                SFU Surge is an all-inclusive organization to promote{" "}
+                <b>curiosity and excitement for a future in technology,</b>{" "}
+                while guiding students on their paths to <b>career success</b>.
+                An innovative community which empowers students to gain access
+                to readily available networking, and connect their shared
+                experiences with designers, engineers, programmers and
+                developers alike. We want to make an impact to offer resources,
+                support, and opportunities to ensure each <b>project</b> is
+                presentable to potential employers – and give students more
+                experience before they head out into the real world. The{" "}
+                <b>events</b> challenge participants to be ambitious about their
+                process and end goals, with plenty of room to improve and
+                accelerate. Guidance in <b>mentorship sessions, mixers,</b> and{" "}
+                <b>talks</b> help students succeed and encourage them through
+                personal and inspirational connections.
+              </p>
+            </div>
           </section>
         </div>
         <div className="container-fluid p-5" id="bluebg">
