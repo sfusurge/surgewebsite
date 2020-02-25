@@ -1,38 +1,69 @@
-.App {
+@import url("https://fonts.googleapis.com/css?family=Barlow:400,600&display=swap");
+
+.App{
+  height: 100%;
+}
+
+#projectsHeaderImg {
+  background-image: url("assets/projectsHeader.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+h1,
+figcaption,
+p {
+  font-family: "Barlow", sans-serif;
+  color: #1c307a;
+}
+
+p {
+  text-align: left;
+  padding-top: 20%;
+  line-height: 40px;
+}
+
+h1 {
+  text-align: left;
+  font-style: normal;
+  font-size: 36px;
+}
+
+#bluebg {
+  background: #eef1f8;
+}
+
+section {
   text-align: center;
+  padding: 10%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#pgHeading {
+  padding: 18%;
+  padding-top: 22.5%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.row {
+  padding-top: 10%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.w-100 {
+  padding-top: 5%;
 }
 
-.App-link {
-  color: #61dafb;
+figure {
+  display: inline-block;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+figure img {
+  vertical-align: top;
+}
+
+figcaption {
+  font-size: 18px;
+}
+
+.boldHeader,
+.figure-caption {
+  font-weight: 600;
 }
