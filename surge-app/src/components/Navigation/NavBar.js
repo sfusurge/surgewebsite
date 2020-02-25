@@ -14,6 +14,7 @@ const NavBar = props => (
             <div className="navbar-items-spacer"></div>
             <div className="navbar-items">
                 <ul>
+                    {/* update the links later */}
                     <li><a href="/">About</a></li>
                     <li><a href="/">ProjectHub</a></li>
                 </ul>
