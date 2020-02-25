@@ -1,7 +1,8 @@
 import React, { Component } from "react";
 import Projects from "./components/Projects";
-import NavBar from './components/Navigation/NavBar'
-import Footer from './components/Navigation/Footer'
+import NavBar from './components/Navigation/NavBar';
+import Footer from './components/Navigation/Footer';
+import SideBar from './components/SideBar/SideBar';
 import "bootstrap/dist/css/bootstrap.min.css";
 
 class App extends Component {
@@ -9,6 +10,7 @@ class App extends Component {
     return (
       <div className="App">
         <NavBar></NavBar>
+        <SideBar></SideBar>
         <Projects></Projects>
         <Footer></Footer>
       </div>

@@ -17,6 +17,10 @@
     flex: 1;
 }
 
+.navbar-logo{
+    margin-left: 0.5rem;
+}
+
 .navbar-logo a{
     padding: 0 3rem;
 }

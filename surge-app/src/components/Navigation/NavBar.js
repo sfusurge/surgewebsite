@@ -1,11 +1,14 @@
 import React from 'react';
 import SurgeLogo from "../../assets/surge-logo-small.png"
 import './NavBar.css';
+import SideBarToggleButton from '../SideBar/SideBarToggleButton'
 
 const NavBar = props => (
     <header className="navbar">
         <nav className="navbar-navigator">
-            <div></div>
+            <div>
+                <SideBarToggleButton></SideBarToggleButton>
+            </div>
             <div className="navbar-logo">
                 <a href="/">
                     <img src={SurgeLogo} alt="Surge Logo"></img>
