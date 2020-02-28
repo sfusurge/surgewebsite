@@ -109,12 +109,8 @@ figcaption {
   font-size: 14px;
 }
 
-.hashtag {
-  font-weight: bold;
-  padding-top: 50%;
-  font-size: 89px;
-  color: #d6def1;
-  padding-left: 50%;
+.col {
+  padding: 5%;
 }
 
 .pageTitle {
@@ -133,4 +129,10 @@ figcaption {
 .boldHeader,
 .figure-caption {
   font-weight: 600;
+}
+
+.contactDescription {
+  padding-top: 10%;
+  font-size: 30px;
+  line-height: 60px;
 }

@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Projects from "./components/Projects";
+import About from "./components/About";
 import NavBar from "./components/Navigation/NavBar";
 import Footer from "./components/Navigation/Footer";
 import SideBar from "./components/SideBar/SideBar";
@@ -11,10 +12,6 @@ class App extends Component {
       <div className="App">
         <About></About>
         <Projects></Projects>
-        <NavBar></NavBar>
-        <SideBar></SideBar>
-        <Projects></Projects>
-        <Footer></Footer>
       </div>
     );
   }
