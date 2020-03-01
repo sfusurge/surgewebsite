@@ -17,12 +17,22 @@ class App extends Component {
     });
   };
 
+  pagefadeClickHandler = () => {
+    this.setState({sidebarOpen: false});
+  }
+
   render() {
+    let pagefade;
+
+    if (this.state.sidebarOpen){
+      pagefade=<PageFade click={this.pagefadeClickHandler}></PageFade>
+    }
+
     return (
       <div className="App">
-        <NavBar></NavBar>
-        <SideBar></SideBar>
-        <PageFade></PageFade>
+        <NavBar sidebarClickHandler={this.sidebarToggleClickHandler}></NavBar>
+        <SideBar visibility={this.state.sidebarOpen}></SideBar>
+        {pagefade}
         <Projects></Projects>
         <Footer></Footer>
       </div>
