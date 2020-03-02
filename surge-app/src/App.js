@@ -1,15 +1,14 @@
 import React, { Component } from "react";
 import "./App.css";
 import Projects from "./components/Projects";
-import About from "./components/About";
+import Home from "./components/Home";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <About></About>
-        <Projects></Projects>
+        <Home></Home>
       </div>
     );
   }

@@ -1,12 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Barlow:400,600&display=swap");
 
-#projectsHeaderImg {
-  background-image: url("assets/projectsHeader.png");
-  background-repeat: no-repeat;
-  background-size: contain;
-  opacity: 0.9;
-}
-
 h1,
 h2,
 h3,
@@ -18,103 +11,14 @@ span {
   color: #1c307a;
 }
 
-.description {
-  font-size: 20px;
-  text-align: left;
-  padding-top: 20%;
-  line-height: 40px;
-}
-
-h1 {
-  text-align: left;
-  font-style: normal;
-  font-size: 36px;
-  padding-bottom: 7%;
-}
-
-h2 {
-  text-align: left;
-  font-style: normal;
-  font-size: 30px;
-}
-
-p {
-  text-align: left;
-}
-
 #bluebg {
   background: #eef1f8;
 }
 
-section {
-  text-align: center;
-  padding: 10%;
-}
-
 #pgHeading {
   padding: 18%;
-  padding-top: 22.5%;
-}
-
-.w-100 {
-  padding-top: 5%;
-}
-
-figure {
-  display: inline-block;
-}
-
-figure img {
-  vertical-align: top;
-}
-
-figcaption {
-  font-size: 18px;
-  text-align: center;
-}
-
-.boldHeader,
-.figure-caption {
-  font-weight: 600;
-}
-
-.card {
-  padding: 1%;
-  height: 499px;
-}
-
-.card-body {
-  padding: 10%;
-}
-
-.carousel .carousel-indicators li {
-  background-color: grey;
-  border-radius: 100%;
-  height: 20px;
-  width: 20px;
-}
-
-#projectsCarousel {
-  padding-bottom: 8%;
-}
-
-#aboutUsHeaderImg {
-  background-image: url("assets/aboutHeader.png");
-  background-repeat: no-repeat;
-  background-size: contain;
-  opacity: 0.9;
-}
-
-.position {
-  font-size: 14px;
-}
-
-.hashtag {
-  font-weight: bold;
-  padding-top: 50%;
-  font-size: 89px;
-  color: #d6def1;
-  padding-left: 50%;
+  padding-bottom: 0%;
+  padding-top: 12.5%;
 }
 
 .pageTitle {
@@ -128,4 +32,257 @@ figcaption {
 .titleDiv {
   padding-top: 4%;
   text-align: center;
+}
+
+#homeHeaderImg {
+  background-image: url("assets/homeHeader.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  opacity: 0.9;
+}
+
+.EEI {
+  /* Engage • Empower • Innovate */
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+
+padding-top: 0%;
+text-align: right;
+padding-right: 5%;
+}
+
+.EEIdiv {
+  padding: 0%;
+}
+
+.imgAndText{
+  position: relative;
+  width: 1440;
+  height: 883px;
+
+}
+
+.whoAreWeDiv {
+  position: absolute;
+  top: 250px;
+  left: 114px;
+  bottom: 10px;
+}
+
+.imgText {
+  position: absolute;
+  top: 400px;
+  left: 811px;
+  right: 200px;
+  bottom: 10px;
+}
+
+.whoAreWeHeading {
+  font-family: Barlow;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 43px;
+
+  color: #1C307A;
+}
+
+.whoAreWeText {
+  font-family: Barlow;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 40px;
+  /* or 200% */
+  color: #1C307A;
+}
+
+.whoAreWeImg {
+  width: 633px;
+  height: 469px;
+
+
+  background: #1C307A;
+  mix-blend-mode: darken;
+  opacity: 0.5;
+}
+
+#bluebg {
+  background: #
+}
+
+.sectionHeading {
+  font-family: Barlow;
+  font-style: normal;
+  font-weight: 1000;
+  font-size: 36px;
+  line-height: 43px;
+
+  color: #1C307A;
+}
+
+.sectionHeadingDiv{
+  padding: 5%;
+}
+.whatWeDoDiv{
+  position: relative;
+  margin-left: 5%;
+  height: 600px;
+}
+
+.whatWeDoImg2{
+  position: absolute;
+  top: 0%;
+  left:35%;
+  bottom: 5%;
+}
+.whatWeDoImg3{
+  position: absolute;
+  top: 0%;
+  right:5%;
+}
+
+.whatWeDoImgText1{
+  position: absolute;
+  top:2%;
+  left:8%;
+
+  font-family: Barlow;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 43px;
+  text-align: center;
+
+  color: #FFFFFF;
+}
+
+.whatWeDoImgText2{
+  position: absolute;
+  top:2%;
+  left:41.5%;
+  font-family: Barlow;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 43px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.whatWeDoImgText3{
+  position: absolute;
+  top:2%;
+  right:15%;
+  font-family: Barlow;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 43px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.eventsDiv{
+  position: relative;
+  margin-left: 5%;
+  height: 600px;
+}
+
+.eventsBgRectangle2{
+  position: absolute;
+  top: 0%;
+  left:34%;
+  bottom: 5%;
+}
+.eventsBgRectangle3{
+  position: absolute;
+  top: 0%;
+  right:5%;
+}
+
+.eventImg1{
+  position: absolute;
+  top:0%;
+  left: 0.5%;
+}
+
+.eventText1{
+  position: absolute;
+  width:18%;
+  top:40%;
+  left:5%;
+}
+
+.eventTextStyle{
+  font-family: Barlow;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.eventHeadingStyle{
+  font-family: Barlow;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 30px;
+  line-height: 36px;
+
+  color: #1C307A;
+}
+
+.learnMore1{
+  position: absolute;
+  top:65%;
+  right:79%;
+}
+
+.learnMoreStyle{
+  ont-family: Barlow;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-decoration-line: underline;
+
+  color: #1C307A;
+
+}
+
+.eventImg2{
+  position: absolute;
+  top:0%;
+  left: 3%;
+}
+
+.eventText2{
+  position: absolute;
+  width:60%;
+  top:40%;
+  left:18%;
+}
+
+.learnMore2{
+  position: absolute;
+  top:65%;
+  right:20%;
+}
+
+.moreComing{
+  position: absolute;
+  width:20%;
+  right: 8%;
+  top:30%;
+}
+
+.moreComingStyle{
+  font-family: Barlow;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 48px;
+
+  color: #1C307A;
 }
