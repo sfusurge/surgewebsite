@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Barlow:400,600&display=swap");
 
 .navbar{
-    position: fixed;
+    position: relative;
     top: 0;
     left: 0;
     width: 100%;
@@ -41,7 +41,7 @@
 }
 
 .navbar-items a{
-    color: #ABC5ED;;
+    color: #ABC5ED;
     font-family: "Barlow", sans-serif;
     font-size: 24px;
     font-weight: bold;
