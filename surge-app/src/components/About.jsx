@@ -27,7 +27,6 @@ class About extends Component {
   render() {
     return (
       <React.Fragment>
-        <NavBar></NavBar>
         <div className="container-fluid" id="aboutUsHeaderImg">
           <section id="pgHeading">
             <div className="titleDiv">
@@ -60,10 +59,10 @@ class About extends Component {
             </div>
 
             <p className="contactDescription">
-              You can get in contact with us by emailing sfusurge@gmail.com, or
-              by messaging us on Facebook, Instagram, or Twitter. Also, be sure
-              to sign up for our Newsletter to stay up to date with all our
-              events!
+              You can get in contact with us by emailing{" "}
+              <a href="mailto: sfusurge@gmail.com">sfusurge@gmail.com</a>, or by
+              messaging us on Facebook, Instagram, or Twitter. Also, be sure to
+              sign up for our Newsletter to stay up to date with all our events!
             </p>
           </section>
         </div>

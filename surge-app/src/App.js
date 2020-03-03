@@ -1,7 +1,8 @@
 import React, { Component } from "react";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import About from "./components/About";
 import Projects from "./components/Projects";
 import NavBar from "./components/Navigation/NavBar";
-import Footer from "./components/Navigation/Footer";
 import SideBar from "./components/SideBar/SideBar";
 import PageFade from "./components/SideBar/PageFade";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -29,12 +30,15 @@ class App extends Component {
     }
 
     return (
-      <div className="App">
-        <NavBar sidebarClickHandler={this.sidebarToggleClickHandler}></NavBar>
-        <SideBar visibility={this.state.sidebarOpen}></SideBar>
-        {pagefade}
-        <Projects></Projects>
-      </div>
+      <Router>
+        <div className="App">
+          <NavBar sidebarClickHandler={this.sidebarToggleClickHandler}></NavBar>
+          <Route path="/about" component={About} />
+          <Route path="/projects" component={Projects} />
+          <SideBar visibility={this.state.sidebarOpen}></SideBar>
+          {pagefade}
+        </div>
+      </Router>
     );
   }
 }

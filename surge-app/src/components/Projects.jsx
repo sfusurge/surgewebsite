@@ -11,7 +11,6 @@ class Projects extends Component {
   render() {
     return (
       <React.Fragment>
-        <NavBar></NavBar>
         <div className="container-fluid" id="projectsHeaderImg">
           <section id="pgHeading">
             <div id="overlay-div">
