@@ -13,9 +13,9 @@ const NavBar = props => (
         ></SideBarToggleButton>
       </div>
       <div className="navbar-logo">
-        <a href="/">
+        <Link to="/">
           <img src={SurgeLogo} alt="Surge Logo"></img>
-        </a>
+        </Link>
       </div>
       <div className="navbar-items-spacer"></div>
       <div className="navbar-items">
