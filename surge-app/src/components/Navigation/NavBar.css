@@ -22,7 +22,7 @@
 }
 
 .navbar-logo a{
-    padding: 0 3rem;
+    padding: 0 10%;
 }
 
 .navbar-items-spacer{
@@ -54,7 +54,7 @@
     text-decoration: none;
 }
 
-@media (max-width: 768px){
+/* @media (max-width: 768px){
     .navbar-items{
         display: none;
     }
@@ -68,4 +68,4 @@
     .navbar-logo{
         margin-left: 0;
     }
-}
+} */
