@@ -3,6 +3,8 @@ import "../App.css";
 import projectsTitle from "../assets/PROJECTSTITLE.png";
 import rect from "../assets/rectangle.png";
 import cardRect from "../assets/cardRect.png";
+import NavBar from "./Navigation/NavBar";
+import Footer from "./Navigation/Footer";
 
 class Projects extends Component {
   state = {};
@@ -39,38 +41,25 @@ class Projects extends Component {
               <div className="col-sm">
                 <figure className="figure">
                   <img className="figure-img" src={rect} alt="" />
-                  <figcaption className="font-weight-bold">Grace</figcaption>
+                  <figcaption className="font-weight-bold">
+                    Grace Luo
+                  </figcaption>
                 </figure>
               </div>
               <div className="col-sm">
                 <figure className="figure">
                   <img className="figure-img" src={rect} alt=""></img>
-                  <figcaption className="font-weight-bold">Rauf</figcaption>
+                  <figcaption className="font-weight-bold">
+                    Rauf Shimarov
+                  </figcaption>
                 </figure>
               </div>
               <div className="col-sm">
                 <figure className="figure">
                   <img className="figure-img" src={rect} alt=""></img>
-                  <figcaption className="font-weight-bold">Jocelyn</figcaption>
-                </figure>
-              </div>
-              <div className="w-100"></div>
-              <div className="col-sm">
-                <figure className="figure">
-                  <img className="figure-img" src={rect} alt=""></img>
-                  <figcaption className="font-weight-bold">Name</figcaption>
-                </figure>
-              </div>
-              <div className="col-sm">
-                <figure className="figure">
-                  <img className="figure-img" src={rect} alt=""></img>
-                  <figcaption className="font-weight-bold">Name</figcaption>
-                </figure>
-              </div>
-              <div className="col-sm">
-                <figure className="figure">
-                  <img className="figure-img" src={rect} alt=""></img>
-                  <figcaption className="font-weight-bold">Name</figcaption>
+                  <figcaption className="font-weight-bold">
+                    Jocelyn Gao
+                  </figcaption>
                 </figure>
               </div>
             </div>
@@ -190,6 +179,7 @@ class Projects extends Component {
             </div>
           </section>
         </div>
+        <Footer></Footer>
       </React.Fragment>
     );
   }

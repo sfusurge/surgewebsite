@@ -239,6 +239,7 @@ padding-right: 5%;
   right:79%;
 }
 
+
 .learnMoreStyle{
   ont-family: Barlow;
   font-style: normal;
@@ -248,7 +249,10 @@ padding-right: 5%;
   text-decoration-line: underline;
 
   color: #1C307A;
+}
 
+.col {
+  padding: 5%;
 }
 
 .eventImg2{
@@ -285,4 +289,15 @@ padding-right: 5%;
   line-height: 48px;
 
   color: #1C307A;
+}
+
+.boldHeader,
+.figure-caption {
+  font-weight: 600;
+}
+
+.contactDescription {
+  padding-top: 10%;
+  font-size: 30px;
+  line-height: 60px;
 }
