@@ -43,11 +43,29 @@
 .navbar-items a{
     color: #1C307A;
     font-family: "Barlow", sans-serif;
-    font-size: 18px;
+    font-size: 24px;
     font-weight: bold;
+    text-decoration: none;
 }
 
 .navbar-items a:hover,
 .navbar-items a:active{
-    color: maroon;
+    color: #f9aa00;
+    text-decoration: none;
+}
+
+@media (max-width: 768px){
+    .navbar-items{
+        display: none;
+    }
+}
+
+@media (min-width: 769px){
+    .sidebar-toggle-button{
+        display: none;
+    }
+
+    .navbar-logo{
+        margin-left: 0;
+    }
 }
