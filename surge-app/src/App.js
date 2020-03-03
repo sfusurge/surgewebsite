@@ -1,10 +1,13 @@
 import React, { Component } from "react";
+import "./App.css";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import About from "./components/About";
 import Projects from "./components/Projects";
 import NavBar from "./components/Navigation/NavBar";
 import SideBar from "./components/SideBar/SideBar";
 import PageFade from "./components/SideBar/PageFade";
+import Home from "./components/Home";
+
 import "bootstrap/dist/css/bootstrap.min.css";
 
 class App extends Component {
@@ -30,6 +33,11 @@ class App extends Component {
     }
 
     return (
+<<<<<<< HEAD
+      <div className="App">
+        <Home></Home>
+      </div>
+=======
       <Router>
         <div className="App">
           <NavBar sidebarClickHandler={this.sidebarToggleClickHandler}></NavBar>
@@ -39,6 +47,7 @@ class App extends Component {
           {pagefade}
         </div>
       </Router>
+>>>>>>> d504d96f71e755597509e8e05e9069f557c3ef41
     );
   }
 }
