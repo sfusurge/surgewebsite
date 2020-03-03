@@ -1,9 +1,13 @@
 import React, { Component } from "react";
+import "./App.css";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import About from "./components/About";
 import Projects from "./components/Projects";
-import NavBar from './components/Navigation/NavBar';
-import Footer from './components/Navigation/Footer';
-// import SideBar from './components/SideBar/SideBar';
-// import PageFade from './components/SideBar/PageFade';
+import NavBar from "./components/Navigation/NavBar";
+// import SideBar from "./components/SideBar/SideBar";
+// import PageFade from "./components/SideBar/PageFade";
+import Home from "./components/Home";
+
 import "bootstrap/dist/css/bootstrap.min.css";
 
 class App extends Component {
@@ -24,19 +28,23 @@ class App extends Component {
   render() {
     // let pagefade;
 
-    // if (this.state.sidebarOpen){
-    //   pagefade=<PageFade click={this.pagefadeClickHandler}></PageFade>
+    // if (this.state.sidebarOpen) {
+    //   pagefade = <PageFade click={this.pagefadeClickHandler}></PageFade>;
     // }
 
     return (
-      <div className="App">
-        <NavBar></NavBar>
-        {/* <NavBar sidebarClickHandler={this.sidebarToggleClickHandler}></NavBar> */}
-        {/* <SideBar visibility={this.state.sidebarOpen}></SideBar> */}
-        {/* {pagefade} */}
-        <Projects></Projects>
-        <Footer></Footer>
-      </div>
+
+      <Router>
+        <div className="App">
+          <NavBar></NavBar>
+          {/* <NavBar sidebarClickHandler={this.sidebarToggleClickHandler}></NavBar> */}
+          <Route path="/" exact component={Home} />
+          <Route path="/about" component={About} />
+          <Route path="/projects" component={Projects} />
+          {/* <SideBar visibility={this.state.sidebarOpen}></SideBar> */}
+          {/* {pagefade} */}
+        </div>
+      </Router>
     );
   }
 }

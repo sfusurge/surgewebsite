@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 import SurgeLogo from "../../assets/surge-logo-small.png"
 import './NavBar.css';
 // import SideBarToggleButton from '../SideBar/SideBarToggleButton'
@@ -9,17 +10,21 @@ const NavBar = props => (
             {/* <div className="sidebar-toggle-button">
                 <SideBarToggleButton click={props.sidebarClickHandler}></SideBarToggleButton>
             </div> */}
-            <div className="navbar-logo">
-                <a href="/">
+           <div className="navbar-logo">
+                <Link to="/">
                     <img src={SurgeLogo} alt="Surge Logo"></img>
-                </a>
+                </Link>
             </div>
             <div className="navbar-items-spacer"></div>
             <div className="navbar-items">
                 <ul>
                     {/* update the links later */}
-                    <li><a href="/">About</a></li>
-                    <li><a href="/">ProjectHub</a></li>
+                    <Link to="/about">
+                        <li>About</li>
+                    </Link>
+                    <Link to="/projects">
+                        <li>ProjectHub</li>
+                    </Link>
                 </ul>
             </div>
         </nav>
