@@ -59,10 +59,42 @@ class About extends Component {
             </div>
 
             <p className="contactDescription">
-              You can get in contact with us by emailing{" "}
-              <a href="mailto: sfusurge@gmail.com">sfusurge@gmail.com</a>, or by
-              messaging us on Facebook, Instagram, or Twitter. Also, be sure to
-              sign up for our Newsletter to stay up to date with all our events!
+              You can get in contact with us by emailing sfusurge@gmail.com, or
+              by messaging us on{" "}
+              <a
+                href={"https://www.facebook.com/sfusurge"}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Facebook
+              </a>
+              ,{" "}
+              <a
+                href={"https://www.instagram.com/sfusurge/"}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Instagram
+              </a>
+              , or{" "}
+              <a
+                href={"https://twitter.com/sfusurge"}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Twitter
+              </a>
+              . Also, be sure to sign up for our{" "}
+              <a
+                href={
+                  "https://gmail.us4.list-manage.com/subscribe/post?u=33345c9bc17f10bac6afdd0ac&id=736d801cb8"
+                }
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Newsletter
+              </a>{" "}
+              to stay up to date with all our events!
             </p>
           </section>
         </div>
