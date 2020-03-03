@@ -33,21 +33,17 @@ class App extends Component {
     }
 
     return (
-<<<<<<< HEAD
-      <div className="App">
-        <Home></Home>
-      </div>
-=======
+
       <Router>
         <div className="App">
           <NavBar sidebarClickHandler={this.sidebarToggleClickHandler}></NavBar>
+          <Route path="/" exact component={Home} />
           <Route path="/about" component={About} />
           <Route path="/projects" component={Projects} />
           <SideBar visibility={this.state.sidebarOpen}></SideBar>
           {pagefade}
         </div>
       </Router>
->>>>>>> d504d96f71e755597509e8e05e9069f557c3ef41
     );
   }
 }

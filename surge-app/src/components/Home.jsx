@@ -9,13 +9,14 @@ import whatWeDoImg3 from "../assets/whatWeDoImg3.png"
 import eventsBgRectangle from "../assets/eventsBgRectangle.png"
 import eventImg1 from "../assets/eventImg1.png"
 import eventImg2 from "../assets/eventImg2.png"
+import Footer from "./Navigation/Footer.js";
 class Home extends Component {
   state = {};
   render() {
     return (
       <React.Fragment>
         <div className="container-fluid" id="homeHeaderImg">
-          <section id="pgHeading">
+          <section id="pgHeadingHome">
             <div className="titleDiv">
               <img
                 className="img-fluid"
@@ -146,6 +147,7 @@ class Home extends Component {
           </div>
 
         </div>
+        <Footer></Footer>
       </React.Fragment>
     );
   }
