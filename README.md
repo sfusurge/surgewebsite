@@ -2,6 +2,10 @@
 
 ![Licence](https://img.shields.io/github/license/sfusurge/sfusurge.github.io)
 
+React website for SFU Surge.
+
+View the website at https://sfusurge.github.io/.
+
 ## Educational Resources
 
 - React JS Resources:
