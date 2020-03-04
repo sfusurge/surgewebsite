@@ -1,4 +1,4 @@
-# SFU SURGE WEBSITE!
+# <img src="./readme-img/logo.svg" width="40px" alt="SFU Surge logo" /> SFU Surge: Official Website
 
 ## Educational Resources
 
