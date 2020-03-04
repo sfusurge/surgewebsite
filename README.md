@@ -1,5 +1,7 @@
 # <img src="./readme-img/logo.svg" width="40px" alt="SFU Surge logo" /> SFU Surge: Official Website
 
+![Licence](https://img.shields.io/github/license/sfusurge/sfusurge.github.io)
+
 ## Educational Resources
 
 - React JS Resources:
