@@ -3,7 +3,6 @@ import "../App.css";
 import projectsTitle from "../assets/PROJECTSTITLE.png";
 import rect from "../assets/rectangle.png";
 import cardRect from "../assets/cardRect.png";
-import NavBar from "./Navigation/NavBar";
 import Footer from "./Navigation/Footer";
 
 class Projects extends Component {
