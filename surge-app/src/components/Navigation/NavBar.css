@@ -51,23 +51,20 @@
 
 .navbar-items a:hover,
 .navbar-items a:active {
-  /*color: #f9aa00;*/
   opacity: 1;
   text-decoration: none;
 }
 
-@media (max-width: 768px) {
-  .navbar-items {
-    display: none;
-  }
+/* @media (max-width: 768px){
+    .navbar-items{
+        display: none;
+    }
 }
-
-@media (min-width: 769px) {
-  .sidebar-toggle-button {
-    display: none;
-  }
-
-  .navbar-logo {
-    margin-left: 0;
-  }
-}
+@media (min-width: 769px){
+    .sidebar-toggle-button{
+        display: none;
+    }
+    .navbar-logo{
+        margin-left: 0;
+    }
+} */
