@@ -165,12 +165,12 @@ class Projects extends Component {
                     <div className="card" id="bluebg">
                       <img className="card-img-top" src={cardRect} alt="" />
                       <div className="card-body">
-                        <h2 className="boldHeader">Game</h2>
+                        <h2 className="boldHeader">Build-a-Bot Royale</h2>
                         <p className="card-text">
-                          Play Pac-Man in real life across 5 square blocks of
-                          Downtown Vancouver. Track the locations of other enemy
-                          players through an application on your phone, and hunt
-                          them down mercilessly.
+                          BattleBots + Jackbox/Kahoot + Battle Royale. Join the
+                          game from a web browser, build your robot, and be the
+                          last bot standing in a Battle Royale of up to 100+
+                          players.
                         </p>
                         <div className="projectLink">
                           <a className="boldHeader" href="">
