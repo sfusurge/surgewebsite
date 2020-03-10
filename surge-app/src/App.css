@@ -58,16 +58,11 @@ padding-right: 5%;
 
 .imgAndText{
   position: relative;
-  width: 1440;
-  height: 883px;
-
+  padding:3%;
 }
 
 .whoAreWeDiv {
-  position: absolute;
-  top: 250px;
-  left: 114px;
-  bottom: 10px;
+  position: relative;
 }
 
 .imgText {
@@ -101,8 +96,6 @@ padding-right: 5%;
 .whoAreWeImg {
   width: 633px;
   height: 469px;
-
-
   background: #1C307A;
   mix-blend-mode: darken;
   opacity: 0.5;
@@ -119,24 +112,19 @@ padding-right: 5%;
 }
 
 .sectionHeadingDiv{
-  padding: 5%;
+  padding: 2%;
 }
 .whatWeDoDiv{
   position: relative;
-  margin-left: 5%;
-  height: 600px;
+  left:0;
+  right:0;
+  margin:auto;
+  padding-bottom:6%;
 }
 
-.whatWeDoImg2{
-  position: absolute;
-  top: 0%;
-  left:35%;
-  bottom: 5%;
-}
-.whatWeDoImg3{
-  position: absolute;
-  top: 0%;
-  right:5%;
+.whatWeDoImgs{
+  position: relative;
+  margin:3%;
 }
 
 .whatWeDoImgText1{
@@ -180,35 +168,32 @@ padding-right: 5%;
   color: #FFFFFF;
 }
 
+/* EVENTS */
+
 .eventsDiv{
   position: relative;
-  margin-left: 5%;
-  height: 600px;
+  left:0;
+  right:0;
+  margin:auto;
 }
 
-.eventsBgRectangle2{
-  position: absolute;
-  top: 0%;
-  left:34%;
-  bottom: 5%;
+.eventsBgRectangles{
+  position: relative;
 }
-.eventsBgRectangle3{
-  position: absolute;
-  top: 0%;
-  right:5%;
+.eventHeadingStyle{
+  font-family: Barlow;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 30px;
+  line-height: 36px;
+  color: #1C307A;
 }
-
-.eventImg1{
-  position: absolute;
-  top:0%;
-  left: 0.5%;
+.eventImgs{
+  position: relative;
 }
 
-.eventText1{
-  position: absolute;
-  width:18%;
-  top:40%;
-  left:5%;
+.eventTexts{
+  position: relative;
 }
 
 .eventTextStyle{
@@ -219,25 +204,9 @@ padding-right: 5%;
   line-height: 17px;
 }
 
-.eventHeadingStyle{
-  font-family: Barlow;
-  font-style: normal;
-  font-weight: 800;
-  font-size: 30px;
-  line-height: 36px;
-
-  color: #1C307A;
-}
-
-.learnMore1{
-  position: absolute;
-  top:65%;
-  right:79%;
-}
-
 
 .learnMoreStyle{
-  ont-family: Barlow;
+  font-family: Barlow;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -247,30 +216,8 @@ padding-right: 5%;
   color: #1C307A;
 }
 
-.eventImg2{
-  position: absolute;
-  top:0%;
-  left: 3%;
-}
-
-.eventText2{
-  position: absolute;
-  width:60%;
-  top:40%;
-  left:18%;
-}
-
-.learnMore2{
-  position: absolute;
-  top:65%;
-  right:20%;
-}
-
 .moreComing{
-  position: absolute;
-  width:20%;
-  right: 8%;
-  top:30%;
+  position: relative;
 }
 
 .moreComingStyle{
@@ -279,12 +226,8 @@ padding-right: 5%;
   font-weight: 800;
   font-size: 40px;
   line-height: 48px;
-
   color: #1C307A;
 }
-
-
-
 
 
 
