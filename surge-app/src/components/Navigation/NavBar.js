@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 import { Link } from "react-router-dom";
 import SurgeLogo from "../../assets/surge-logo-small.png";
 import "./NavBar.css";

@@ -1,3 +1,29 @@
-body{
-  background-color: black;
+#pgHeadingHome {
+    border-color: "red";
+    border-width: 2;
+}
+
+#homeTitle {
+    width:100%;
+    height: auto;
+}
+
+.EEI {
+    font-size: 150%;
+}
+
+.whoAreWeDiv {
+    right:60%;
+}
+
+.whoAreWeText {
+    font-size: 100%;
+    position:inherit;
+}
+
+.whoAreWeDiv {
+    position: relative; 
+    left:0;
+    right:0;
+    margin:auto;
 }

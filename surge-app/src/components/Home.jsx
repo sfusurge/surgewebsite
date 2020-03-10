@@ -4,6 +4,7 @@ import Col from "react-bootstrap/Col";
 import Container from "react-bootstrap/Container";
 import Image from "react-bootstrap/Image";
 
+
 import "../style/home.css";
 import homeTitle from "../assets/SURGETITLE.png";
 import whoAreWe from "../assets/whoAreWe.png";
@@ -46,6 +47,7 @@ class Home extends Component {
           </div>
         </div>
 
+            
         <div className="container-fluid">
           <div className="imgAndText">
             <Container>
@@ -69,7 +71,10 @@ class Home extends Component {
           </div>
         </div>
 
+            
+            
         <div className="container-fluid" id="bluebg">
+            
           <div className="sectionHeadingDiv">
             <p className="sectionHeading">What We Do</p>
           </div>
@@ -99,6 +104,8 @@ class Home extends Component {
           </div>
         </div>
 
+            
+            
         <div className="container-fluid">
           <div className="sectionHeadingDiv">
             <p className="sectionHeading">Upcoming Events</p>
@@ -163,7 +170,6 @@ class Home extends Component {
             </div>
           </Container>
         </div>
-
         <Footer></Footer>
       </React.Fragment>
     );

@@ -114,6 +114,7 @@ span {
 .sectionHeadingDiv {
   padding: 2%;
 }
+
 .whatWeDoDiv {
   position: relative;
   left: 0;
@@ -125,6 +126,10 @@ span {
 .whatWeDoImgs {
   position: relative;
   margin: 3%;
+  left:0;
+  right:0;
+  margin:auto;
+  padding-bottom:6%;
 }
 
 .whatWeDoImgText1 {
@@ -170,17 +175,19 @@ span {
 
 /* EVENTS */
 
-.eventsDiv {
+.eventsDiv{
   position: relative;
-  left: 0;
-  right: 0;
-  margin: auto;
+  left:0;
+  right:0;
+  margin:auto;
 }
 
-.eventsBgRectangles {
+.eventsBgRectangles{
   position: relative;
 }
-.eventHeadingStyle {
+
+.eventHeadingStyle{
+
   font-family: Barlow;
   font-style: normal;
   font-weight: 800;
@@ -204,14 +211,13 @@ span {
   line-height: 17px;
 }
 
-.learnMoreStyle {
+.learnMoreStyle{
   font-family: Barlow;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
   text-decoration-line: underline;
-
   color: #1c307a;
 }
 
