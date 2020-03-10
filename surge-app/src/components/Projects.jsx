@@ -185,10 +185,12 @@ class Projects extends Component {
                       <div className="card-body">
                         <h2 className="boldHeader">Schedule-Me</h2>
                         <p className="card-text">
-                          Play Pac-Man in real life across 5 square blocks of
-                          Downtown Vancouver. Track the locations of other enemy
-                          players through an application on your phone, and hunt
-                          them down mercilessly.
+                          Schedule Me is a simple and powerful way to organize
+                          meetings, while focusing on control for the organizer.
+                          How it works is a link is shared to all relevant
+                          people to poll for their availability. From there, the
+                          organizer can determine the optimal time for a
+                          meeting.
                         </p>
                         <div className="projectLink">
                           <a className="boldHeader" href="">

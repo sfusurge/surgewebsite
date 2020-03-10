@@ -126,10 +126,10 @@ span {
 .whatWeDoImgs {
   position: relative;
   margin: 3%;
-  left:0;
-  right:0;
-  margin:auto;
-  padding-bottom:6%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  padding-bottom: 6%;
 }
 
 .whatWeDoImgText1 {
@@ -175,19 +175,18 @@ span {
 
 /* EVENTS */
 
-.eventsDiv{
+.eventsDiv {
   position: relative;
-  left:0;
-  right:0;
-  margin:auto;
+  left: 0;
+  right: 0;
+  margin: auto;
 }
 
-.eventsBgRectangles{
+.eventsBgRectangles {
   position: relative;
 }
 
-.eventHeadingStyle{
-
+.eventHeadingStyle {
   font-family: Barlow;
   font-style: normal;
   font-weight: 800;
@@ -211,7 +210,7 @@ span {
   line-height: 17px;
 }
 
-.learnMoreStyle{
+.learnMoreStyle {
   font-family: Barlow;
   font-style: normal;
   font-weight: 500;
@@ -314,10 +313,14 @@ figcaption {
 }
 
 .carousel .carousel-indicators li {
-  background-color: grey;
   border-radius: 100%;
+  border: solid 1px #1c307a;
   height: 20px;
   width: 20px;
+}
+
+.carousel .carousel-indicators li.active {
+  background: #1c307a;
 }
 
 #projectsCarousel {
@@ -337,4 +340,8 @@ figcaption {
 
 .col {
   padding: 5%;
+}
+
+.projectLink {
+  float: right;
 }
