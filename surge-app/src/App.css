@@ -56,9 +56,9 @@ span {
   padding: 0%;
 }
 
-.imgAndText{
+.imgAndText {
   position: relative;
-  padding:3%;
+  padding: 3%;
 }
 
 .whoAreWeDiv {
@@ -80,7 +80,7 @@ span {
   font-size: 36px;
   line-height: 43px;
 
-  color: #1C307A;
+  color: #1c307a;
 }
 
 .whoAreWeText {
@@ -90,13 +90,13 @@ span {
   font-size: 20px;
   line-height: 40px;
   /* or 200% */
-  color: #1C307A;
+  color: #1c307a;
 }
 
 .whoAreWeImg {
   width: 633px;
   height: 469px;
-  background: #1C307A;
+  background: #1c307a;
   mix-blend-mode: darken;
   opacity: 0.5;
 }
@@ -108,29 +108,34 @@ span {
   font-size: 36px;
   line-height: 43px;
 
-  color: #1C307A;
+  color: #1c307a;
 }
 
-.sectionHeadingDiv{
+.sectionHeadingDiv {
   padding: 2%;
 }
-.whatWeDoDiv{
+
+.whatWeDoDiv {
   position: relative;
+  left: 0;
+  right: 0;
+  margin: auto;
+  padding-bottom: 6%;
+}
+
+.whatWeDoImgs {
+  position: relative;
+  margin: 3%;
   left:0;
   right:0;
   margin:auto;
   padding-bottom:6%;
 }
 
-.whatWeDoImgs{
-  position: relative;
-  margin:3%;
-}
-
-.whatWeDoImgText1{
+.whatWeDoImgText1 {
   position: absolute;
-  top:2%;
-  left:8%;
+  top: 2%;
+  left: 8%;
 
   font-family: Barlow;
   font-style: normal;
@@ -139,33 +144,33 @@ span {
   line-height: 43px;
   text-align: center;
 
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
-.whatWeDoImgText2{
+.whatWeDoImgText2 {
   position: absolute;
-  top:2%;
-  left:41.5%;
+  top: 2%;
+  left: 41.5%;
   font-family: Barlow;
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
   line-height: 43px;
   text-align: center;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
-.whatWeDoImgText3{
+.whatWeDoImgText3 {
   position: absolute;
-  top:2%;
-  right:15%;
+  top: 2%;
+  right: 15%;
   font-family: Barlow;
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
   line-height: 43px;
   text-align: center;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 /* EVENTS */
@@ -180,30 +185,31 @@ span {
 .eventsBgRectangles{
   position: relative;
 }
+
 .eventHeadingStyle{
+
   font-family: Barlow;
   font-style: normal;
   font-weight: 800;
   font-size: 30px;
   line-height: 36px;
-  color: #1C307A;
+  color: #1c307a;
 }
-.eventImgs{
+.eventImgs {
   position: relative;
 }
 
-.eventTexts{
+.eventTexts {
   position: relative;
 }
 
-.eventTextStyle{
+.eventTextStyle {
   font-family: Barlow;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 17px;
 }
-
 
 .learnMoreStyle{
   font-family: Barlow;
@@ -212,29 +218,21 @@ span {
   font-size: 16px;
   line-height: 19px;
   text-decoration-line: underline;
-
-  color: #1C307A;
+  color: #1c307a;
 }
 
-.moreComing{
+.moreComing {
   position: relative;
 }
 
-.moreComingStyle{
+.moreComingStyle {
   font-family: Barlow;
   font-style: normal;
   font-weight: 800;
   font-size: 40px;
   line-height: 48px;
-  color: #1C307A;
+  color: #1c307a;
 }
-
-
-
-
-
-
-
 
 /*Start of About and Projects*/
 .boldHeader,

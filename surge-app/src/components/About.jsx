@@ -19,7 +19,6 @@ import michelle from "../assets/headshots/michelle.JPG";
 import ishaan from "../assets/headshots/ishaan.JPG";
 import fiona from "../assets/headshots/fiona.JPG";
 
-import NavBar from "./Navigation/NavBar";
 import Footer from "./Navigation/Footer";
 
 class About extends Component {
