@@ -1,11 +1,11 @@
 @import url("https://fonts.googleapis.com/css?family=Barlow:400,600&display=swap");
 
 .navbar{
-    position: fixed;
+    position: relative;
     top: 0;
     left: 0;
     width: 100%;
-    background: #ABC5ED;
+    background: #1C307A; opacity: 0.9;
     height: 137px;
 }
 
@@ -22,7 +22,7 @@
 }
 
 .navbar-logo a{
-    padding: 0 3rem;
+    padding: 0 10%;
 }
 
 .navbar-items-spacer{
@@ -41,7 +41,7 @@
 }
 
 .navbar-items a{
-    color: #1C307A;
+    color: #ABC5ED;
     font-family: "Barlow", sans-serif;
     font-size: 24px;
     font-weight: bold;
@@ -54,7 +54,7 @@
     text-decoration: none;
 }
 
-@media (max-width: 768px){
+/* @media (max-width: 768px){
     .navbar-items{
         display: none;
     }
@@ -68,4 +68,4 @@
     .navbar-logo{
         margin-left: 0;
     }
-}
+} */
