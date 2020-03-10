@@ -1,4 +1,9 @@
 import React, { Component } from "react";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
+import Container from "react-bootstrap/Container";
+import Image from "react-bootstrap/Image";
+
 import "../style/home.css";
 import homeTitle from "../assets/SURGETITLE.png";
 import whoAreWe from "../assets/whoAreWe.png";
@@ -15,7 +20,7 @@ class Home extends Component {
   state = {};
   render() {
     return (
-      <React.Fragment>
+      <React.Fragment className="appContainer">
         <div className="container-fluid" id="homeHeaderImg">
           <section id="pgHeadingHome">
             <div className="titleDiv">
@@ -29,27 +34,38 @@ class Home extends Component {
           </section>
 
           <div className="EEIdiv">
-            <p className="EEI">
-              <b>Engage • Empower • Innovate </b>
-            </p>
+            <Container>
+              <Row>
+                <Col md={({ offset: 6 }, 12)} xs={11} sm={12}>
+                  <p className="EEI">
+                    <b>Engage • Empower • Innovate </b>
+                  </p>
+                </Col>
+              </Row>
+            </Container>
           </div>
         </div>
 
         <div className="container-fluid">
           <div className="imgAndText">
-            <div className="whoAreWeDiv">
-              <img className="img-fluid" src={whoAreWe} alt="" />
-            </div>
-
-            <div className="imgText">
-              <p className="whoAreWeHeading">Who Are We</p>
-              <p className="whoAreWeText">
-                {" "}
-                SFU Surge is an all-inclusive organization to promote curiosity
-                and excitement for a future in technology, while guiding
-                students on their paths to career success.
-              </p>
-            </div>
+            <Container>
+              <div className="whoAreWeDiv">
+                <Row>
+                  <Col lg={6}>
+                    <Image className="img-fluid" src={whoAreWe} />
+                  </Col>
+                  <Col lg={6}>
+                    <p className="whoAreWeHeading">Who Are We</p>
+                    <p className="whoAreWeText">
+                      {" "}
+                      SFU Surge is an all-inclusive organization to promote
+                      curiosity and excitement for a future in technology, while
+                      guiding students on their paths to career success.
+                    </p>
+                  </Col>
+                </Row>
+              </div>
+            </Container>
           </div>
         </div>
 
@@ -58,18 +74,28 @@ class Home extends Component {
             <p className="sectionHeading">What We Do</p>
           </div>
           <div className="whatWeDoDiv">
-            <div className="whatWeDoImg1">
-              <img className="img-fluid" src={whatWeDoImg1} alt="" />
-              <p className="whatWeDoImgText1">Projects</p>
-            </div>
-            <div className="whatWeDoImg2">
-              <img className="img-fluid" src={whatWeDoImg2} alt="" />
-            </div>
-            <p className="whatWeDoImgText2">Workshops</p>
-            <div className="whatWeDoImg3">
-              <img className="img-fluid" src={whatWeDoImg3} alt="" />
-            </div>
-            <p className="whatWeDoImgText3">Events</p>
+            <Container>
+              <Row>
+                <Col lg={4} md={4} sm={6} xs={4}>
+                  <div class="whatWeDoImgs">
+                    <p className="whatWeDoImgText1">Projects</p>
+                    <Image className="img-fluid" src={whatWeDoImg1} fluid />
+                  </div>
+                </Col>
+                <Col lg={4} md={4} sm={6} xs={4}>
+                  <div class="whatWeDoImgs">
+                    <p className="whatWeDoImgText2">Workshops</p>
+                    <Image className="img-fluid" src={whatWeDoImg2} fluid />
+                  </div>
+                </Col>
+                <Col lg={4} md={4} sm={6} xs={4}>
+                  <div class="whatWeDoImgs">
+                    <p className="whatWeDoImgText3">Events</p>
+                    <Image className="img-fluid" src={whatWeDoImg3} fluid />
+                  </div>
+                </Col>
+              </Row>
+            </Container>
           </div>
         </div>
 
@@ -78,57 +104,66 @@ class Home extends Component {
             <p className="sectionHeading">Upcoming Events</p>
           </div>
 
-          <div className="eventsDiv">
-            <div className="eventsBgRectangle1">
-              <img className="img-fluid" src={eventsBgRectangle} alt="" />
+          <Container>
+            <div className="eventsDiv">
+              {/*  EVENT1  */}
+              <Container>
+                <Row>
+                  <Col>
+                    <div className="eventsBgRectangles">
+                      <div className="eventImgs">
+                        <Image className="img-fluid" src={eventImg1} />
+                      </div>
+                      <div className="eventTexts">
+                        <h className="eventHeadingStyle">TECH Talk</h>
+                        <p className="eventTextStyle">
+                          Want to learn more about the process of
+                          entrepreneurship and the intersections between
+                          business and technology? We are thrilled to announce
+                          TECH Talk with guest speaker Jeremy Becker!{" "}
+                          <a href="" className="learnMoreStyle">
+                            Learn More
+                          </a>
+                        </p>
+                      </div>
+                    </div>
+                  </Col>
+                  {/*  EVENT2  */}
+                  <Col>
+                    <div className="eventsBgRectangles">
+                      <div className="eventImgs">
+                        <Image className="img-fluid" src={eventImg2} />
+                      </div>
+                      <div className="eventTexts">
+                        <h className="eventHeadingStyle">Linux Workshop</h>
+                        <p className="eventTextStyle">
+                          On November 22, Kasra Jamshidi will be teaching the
+                          basic skills and foundation needed to operate and run
+                          Linux. A majority (if not all) of tech-related jobs
+                          and classes rely heavily on this system, especially
+                          scripting.{" "}
+                          <a href="" className="learnMoreStyle">
+                            Learn More
+                          </a>
+                        </p>
+                      </div>
+                    </div>
+                  </Col>
+                  {/* Copy-paste above if want more cards */}
+                  {/*  COMING SOON */}
+                  <Col>
+                    <div className="moreComing">
+                      <p className="moreComingStyle">
+                        More Events Coming Soon!
+                      </p>
+                    </div>
+                  </Col>
+                </Row>
+              </Container>
             </div>
-            <div className="eventImg1">
-              <img className="img-fluid" src={eventImg1} alt="" />
-            </div>
-            <div className="eventText1">
-              <h className="eventHeadingStyle">TECH Talk</h>
-              <p className="eventTextStyle">
-                Want to learn more about the process of entrepreneurship and the
-                intersections between business and technology? We are thrilled
-                to announce TECH Talk with guest speaker Jeremy Becker!
-              </p>
-            </div>
-            <div className="learnMore1">
-              <a href="" className="learnMoreStyle">
-                Learn More
-              </a>
-            </div>
-
-            <div className="eventsBgRectangle2">
-              <img className="img-fluid" src={eventsBgRectangle} alt="" />
-              <div className="eventImg2">
-                <img className="img-fluid" src={eventImg2} alt="" />
-              </div>
-              <div className="eventText2">
-                <h className="eventHeadingStyle">Linux Workshop</h>
-                <p className="eventTextStyle">
-                  On November 22, Kasra Jamshidi will be teaching the basic
-                  skills and foundation needed to operate and run Linux. A
-                  majority (if not all) of tech-related jobs and classes rely
-                  heavily on this system, especially scripting.
-                </p>
-              </div>
-              <div className="learnMore2">
-                <a href="" className="learnMoreStyle">
-                  Learn More
-                </a>
-              </div>
-            </div>
-
-            <div className="eventsBgRectangle3">
-              <img className="img-fluid" src={eventsBgRectangle} alt="" />
-            </div>
-
-            <div className="moreComing">
-              <p className="moreComingStyle">More Events Comming Soon!</p>
-            </div>
-          </div>
+          </Container>
         </div>
+
         <Footer></Footer>
       </React.Fragment>
     );
