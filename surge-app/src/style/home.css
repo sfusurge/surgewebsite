@@ -9,7 +9,7 @@
 }
 
 .EEI {
-  font-size: 150%;
+  font-size: 180%;
 }
 
 .whoAreWeDiv {
@@ -17,7 +17,7 @@
 }
 
 .whoAreWeText {
-  font-size: 100%;
+  font-size: 120%;
   position: inherit;
 }
 
@@ -26,8 +26,4 @@
   left: 0;
   right: 0;
   margin: auto;
-}
-
-.sectionHeadingDiv {
-  padding-left: 5%;
 }

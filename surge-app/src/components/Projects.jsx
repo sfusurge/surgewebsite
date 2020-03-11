@@ -64,6 +64,7 @@ class Projects extends Component {
             </div>
           </section>
         </div>
+
         <div className="container-fluid p-5">
           <section>
             <h1 className="boldHeader">Our Projects</h1>

@@ -4,7 +4,6 @@ import Col from "react-bootstrap/Col";
 import Container from "react-bootstrap/Container";
 import Image from "react-bootstrap/Image";
 
-
 import "../style/home.css";
 import homeTitle from "../assets/SURGETITLE.png";
 import whoAreWe from "../assets/whoAreWe.png";
@@ -15,6 +14,8 @@ import whatWeDoImg3 from "../assets/whatWeDoImg3.png";
 import eventsBgRectangle from "../assets/eventsBgRectangle.png";
 import eventImg1 from "../assets/eventImg1.png";
 import eventImg2 from "../assets/eventImg2.png";
+import cardRect from "../assets/cardRect.png";
+import leetcode from "../assets/leetcodeParties.jpg";
 import Footer from "./Navigation/Footer.js";
 
 class Home extends Component {
@@ -47,7 +48,6 @@ class Home extends Component {
           </div>
         </div>
 
-            
         <div className="container-fluid">
           <div className="imgAndText">
             <Container>
@@ -60,9 +60,12 @@ class Home extends Component {
                     <p className="whoAreWeHeading">Who Are We</p>
                     <p className="whoAreWeText">
                       {" "}
-                      SFU Surge is an all-inclusive organization to promote
-                      curiosity and excitement for a future in technology, while
-                      guiding students on their paths to career success.
+                      SFU Surge is an all-inclusive organization to promote{" "}
+                      <b>
+                        curiosity and excitement for a future in technology,
+                      </b>{" "}
+                      while guiding students on their paths to{" "}
+                      <b>career success</b>.
                     </p>
                   </Col>
                 </Row>
@@ -71,104 +74,116 @@ class Home extends Component {
           </div>
         </div>
 
-            
-            
         <div className="container-fluid" id="bluebg">
-            
-          <div className="sectionHeadingDiv">
-            <p className="sectionHeading">What We Do</p>
-          </div>
-          <div className="whatWeDoDiv">
-            <Container>
-              <Row>
-                <Col lg={4} md={4} sm={6} xs={4}>
-                  <div class="whatWeDoImgs">
-                    <p className="whatWeDoImgText1">Projects</p>
-                    <Image className="img-fluid" src={whatWeDoImg1} fluid />
-                  </div>
-                </Col>
-                <Col lg={4} md={4} sm={6} xs={4}>
-                  <div class="whatWeDoImgs">
-                    <p className="whatWeDoImgText2">Workshops</p>
-                    <Image className="img-fluid" src={whatWeDoImg2} fluid />
-                  </div>
-                </Col>
-                <Col lg={4} md={4} sm={6} xs={4}>
-                  <div class="whatWeDoImgs">
-                    <p className="whatWeDoImgText3">Events</p>
-                    <Image className="img-fluid" src={whatWeDoImg3} fluid />
-                  </div>
-                </Col>
-              </Row>
-            </Container>
-          </div>
-        </div>
-
-            
-            
-        <div className="container-fluid">
-          <div className="sectionHeadingDiv">
-            <p className="sectionHeading">Upcoming Events</p>
-          </div>
-
-          <Container>
-            <div className="eventsDiv">
-              {/*  EVENT1  */}
+          <section>
+            <div className="sectionHeadingDiv">
+              <p className="sectionHeading">What We Do</p>
+            </div>
+            <div className="whatWeDoDiv">
               <Container>
                 <Row>
-                  <Col>
-                    <div className="eventsBgRectangles">
-                      <div className="eventImgs">
-                        <Image className="img-fluid" src={eventImg1} />
-                      </div>
-                      <div className="eventTexts">
-                        <h className="eventHeadingStyle">TECH Talk</h>
-                        <p className="eventTextStyle">
-                          Want to learn more about the process of
-                          entrepreneurship and the intersections between
-                          business and technology? We are thrilled to announce
-                          TECH Talk with guest speaker Jeremy Becker!{" "}
-                          <a href="" className="learnMoreStyle">
-                            Learn More
-                          </a>
-                        </p>
-                      </div>
+                  <Col lg={4} md={4} sm={6} xs={4}>
+                    <div class="whatWeDoImgs">
+                      <p className="whatWeDoImgText1">Projects</p>
+                      <Image className="img-fluid" src={whatWeDoImg1} fluid />
                     </div>
                   </Col>
-                  {/*  EVENT2  */}
-                  <Col>
-                    <div className="eventsBgRectangles">
-                      <div className="eventImgs">
-                        <Image className="img-fluid" src={eventImg2} />
-                      </div>
-                      <div className="eventTexts">
-                        <h className="eventHeadingStyle">Linux Workshop</h>
-                        <p className="eventTextStyle">
-                          On November 22, Kasra Jamshidi will be teaching the
-                          basic skills and foundation needed to operate and run
-                          Linux. A majority (if not all) of tech-related jobs
-                          and classes rely heavily on this system, especially
-                          scripting.{" "}
-                          <a href="" className="learnMoreStyle">
-                            Learn More
-                          </a>
-                        </p>
-                      </div>
+
+                  <Col lg={4} md={4} sm={6} xs={4}>
+                    <div class="whatWeDoImgs">
+                      <p className="whatWeDoImgText2">Workshops</p>
+                      <Image className="img-fluid" src={whatWeDoImg2} fluid />
                     </div>
                   </Col>
-                  {/* Copy-paste above if want more cards */}
-                  {/*  COMING SOON */}
-                  <Col>
-                    <div className="moreComing">
-                      <p className="moreComingStyle">
-                        More Events Coming Soon!
-                      </p>
+
+                  <Col lg={4} md={4} sm={6} xs={4}>
+                    <div class="whatWeDoImgs">
+                      <p className="whatWeDoImgText3">Events</p>
+                      <Image className="img-fluid" src={whatWeDoImg3} fluid />
                     </div>
                   </Col>
                 </Row>
               </Container>
             </div>
-          </Container>
+          </section>
+        </div>
+
+        <div className="container-fluid">
+          <section>
+            <div className="sectionHeadingDiv">
+              <p className="sectionHeading">Upcoming Events</p>
+            </div>
+
+            <div
+              id="eventsCarousel"
+              className="carousel slide"
+              /*data-ride="carousel"*/
+            >
+              <div className="carousel-inner">
+                <div className="carousel-item active">
+                  <div className="card-deck">
+                    <div className="card" id="bluebg">
+                      <img className="card-img-top" src={leetcode} alt="" />
+                      <div className="card-body">
+                        <h2 className="boldHeader">LEETCODE Parties</h2>
+                        <p className="card-text">
+                          We are excited to present our Leetcode workshops! This
+                          workshop is open to all, occuring on a weekly basis
+                          from 5pm to 6:30pm, between the Surrey and Burnaby
+                          campuses. Join us at ASB 9705 in Burnaby or SYRC 3270
+                          at Surrey!
+                        </p>
+                        <div className="eventLink">
+                          <a
+                            className="boldHeader"
+                            href="https://www.facebook.com/events/568464263996888/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            —Learn more
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div className="card" id="bluebg">
+                      <img className="card-img-top" src={cardRect} alt="" />
+                      <div className="card-body">
+                        <h2 className="boldHeader">PROJECTS Showcase</h2>
+                        <p className="card-text">
+                          We invite you to join us on Tuesday, March 31st for a
+                          showcase of the projects that SFU Surge has been
+                          working hard on for the past months. Come out for food
+                          and an opportunity to see what our talented teams have
+                          been building and designing!
+                        </p>
+                        <div className="eventLink">
+                          <a
+                            className="boldHeader"
+                            href=""
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            —Learn more
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div className="card text-center" id="bluebg">
+                      <div className="card-body" id="moreComingBody">
+                        <div className="moreComing">
+                          <p className="card-text" id="moreComingStyle">
+                            MORE EVENTS COMING SOON!
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
         </div>
         <Footer></Footer>
       </React.Fragment>
