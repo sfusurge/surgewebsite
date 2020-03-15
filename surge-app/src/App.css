@@ -224,7 +224,12 @@ span {
   position: relative;
 }
 
-.moreComingStyle {
+#moreComingBody {
+  padding-top: 30%;
+  padding-left: 20%;
+}
+
+#moreComingStyle {
   font-family: Barlow;
   font-style: normal;
   font-weight: 800;
@@ -342,6 +347,7 @@ figcaption {
   padding: 5%;
 }
 
-.projectLink {
+.projectLink,
+.eventLink {
   float: right;
 }

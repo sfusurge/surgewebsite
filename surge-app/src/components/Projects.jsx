@@ -3,6 +3,10 @@ import "../App.css";
 import projectsTitle from "../assets/PROJECTSTITLE.png";
 import rect from "../assets/rectangle.png";
 import cardRect from "../assets/cardRect.png";
+import MealMovers from "../assets/mealMovers.png";
+import buildABot from "../assets/build-a-bot.jpg";
+import degreeNav from "../assets/degreeNav.jpg";
+import area52 from "../assets/area52.png";
 import Footer from "./Navigation/Footer";
 
 class Projects extends Component {
@@ -64,6 +68,7 @@ class Projects extends Component {
             </div>
           </section>
         </div>
+
         <div className="container-fluid p-5">
           <section>
             <h1 className="boldHeader">Our Projects</h1>
@@ -104,7 +109,7 @@ class Projects extends Component {
                     </div>
 
                     <div className="card" id="bluebg">
-                      <img className="card-img-top" src={cardRect} alt="" />
+                      <img className="card-img-top" src={degreeNav} alt="" />
                       <div className="card-body">
                         <h2 className="boldHeader">Degree Navigator</h2>
                         <p className="card-text">
@@ -122,7 +127,7 @@ class Projects extends Component {
                     </div>
 
                     <div className="card" id="bluebg">
-                      <img className="card-img-top" src={cardRect} alt="" />
+                      <img className="card-img-top" src={area52} alt="" />
                       <div className="card-body">
                         <h2 className="boldHeader">Storm Area 52</h2>
                         <p className="card-text">
@@ -144,7 +149,7 @@ class Projects extends Component {
                 <div className="carousel-item">
                   <div className="card-deck">
                     <div className="card" id="bluebg">
-                      <img className="card-img-top" src={cardRect} alt="" />
+                      <img className="card-img-top" src={MealMovers} alt="" />
                       <div className="card-body">
                         <h2 className="boldHeader">Meal Movers</h2>
                         <p className="card-text">
@@ -163,7 +168,7 @@ class Projects extends Component {
                     </div>
 
                     <div className="card" id="bluebg">
-                      <img className="card-img-top" src={cardRect} alt="" />
+                      <img className="card-img-top" src={buildABot} alt="" />
                       <div className="card-body">
                         <h2 className="boldHeader">Build-a-Bot Royale</h2>
                         <p className="card-text">
