@@ -3,6 +3,7 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Container from "react-bootstrap/Container";
 import Image from "react-bootstrap/Image";
+import { Link } from "react-router-dom";
 
 import "../style/home.css";
 import homeTitle from "../assets/SURGETITLE.png";
@@ -67,6 +68,26 @@ class Home extends Component {
                       while guiding students on their paths to{" "}
                       <b>career success</b>.
                     </p>
+                    <a
+                      role="button"
+                      className="btn btn-primary"
+                      href={
+                        "https://gmail.us4.list-manage.com/subscribe/post?u=33345c9bc17f10bac6afdd0ac&id=736d801cb8"
+                      }
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Join our newsletter!
+                    </a>
+                    <Link to="/about">
+                      <button
+                        type="button"
+                        id="learnMoreButton"
+                        className="btn btn-secondary"
+                      >
+                        Learn more
+                      </button>
+                    </Link>
                   </Col>
                 </Row>
               </div>
@@ -151,11 +172,11 @@ class Home extends Component {
                       <div className="card-body">
                         <h2 className="boldHeader">PROJECTS Showcase</h2>
                         <p className="card-text">
-                          We invite you to join us on Tuesday, March 31st for a
-                          showcase of the projects that SFU Surge has been
-                          working hard on for the past months. Come out for food
-                          and an opportunity to see what our talented teams have
-                          been building and designing!
+                          Join us on Tuesday, March 31st for a showcase of the
+                          projects that SFU Surge has been working hard on for
+                          the past months. Come out for food and an opportunity
+                          to see what our talented teams have been building and
+                          designing!
                         </p>
                         <div className="eventLink">
                           <a

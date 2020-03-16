@@ -101,6 +101,11 @@ span {
   opacity: 0.5;
 }
 
+#learnMoreButton {
+  margin-left: 30px;
+  width: 160px;
+}
+
 .sectionHeading {
   font-family: Barlow;
   font-style: normal;

@@ -162,7 +162,7 @@ class About extends Component {
                 <figure className="figure">
                   <img className="figure-img" src={noble} alt=""></img>
                   <figcaption className="font-weight-bold">
-                    Noble Tran
+                    Noble Tan
                   </figcaption>
                   <figcaption className="position">
                     Director of Logistics
@@ -191,6 +191,15 @@ class About extends Component {
                 </figcaption>
               </div>
               <div className="col-sm">
+                <img className="figure-img" src={rect} alt="" />
+                <figcaption className="font-weight-bold">
+                  Nargis Ghiasi
+                </figcaption>
+                <figcaption className="position">
+                  External Relations Coordinator
+                </figcaption>
+              </div>
+              <div className="col-sm">
                 <figure className="figure">
                   <img className="figure-img" src={fiona} alt=""></img>
                   <figcaption className="font-weight-bold">Fiona Wu</figcaption>
@@ -210,6 +219,7 @@ class About extends Component {
                   </figcaption>
                 </figure>
               </div>
+              <div className="w-100"></div>
               <div className="col-sm">
                 <figure className="figure">
                   <img className="figure-img" src={ishaan} alt=""></img>
@@ -221,7 +231,6 @@ class About extends Component {
                   </figcaption>
                 </figure>
               </div>
-              <div className="w-100"></div>
               <div className="col-sm">
                 <figure className="figure">
                   <img className="figure-img" src={julia} alt=""></img>
@@ -253,6 +262,7 @@ class About extends Component {
                   </figcaption>
                 </figure>
               </div>
+              <div className="w-100"></div>
               <div className="col-sm">
                 <figure className="figure">
                   <img className="figure-img" src={michelle} alt=""></img>
@@ -264,7 +274,17 @@ class About extends Component {
                   </figcaption>
                 </figure>
               </div>
-              <div className="w-100"></div>
+              <div className="col-sm">
+                <figure className="figure">
+                  <img className="figure-img" src={rect} alt=""></img>
+                  <figcaption className="font-weight-bold">
+                    Lauren Mok
+                  </figcaption>
+                  <figcaption className="position">
+                    Marketing Assistant
+                  </figcaption>
+                </figure>
+              </div>
               <div className="col-sm-3 ">
                 <figure className="figure">
                   <img className="figure-img" src={art} alt=""></img>
