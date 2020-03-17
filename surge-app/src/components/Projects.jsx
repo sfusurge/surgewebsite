@@ -7,6 +7,7 @@ import MealMovers from "../assets/mealMovers.png";
 import buildABot from "../assets/build-a-bot.jpg";
 import degreeNav from "../assets/degreeNav.jpg";
 import area52 from "../assets/area52.png";
+import pacmacro from "../assets/pacmacro.jpg";
 import Footer from "./Navigation/Footer";
 
 class Projects extends Component {
@@ -91,7 +92,7 @@ class Projects extends Component {
                 <div className="carousel-item active">
                   <div className="card-deck">
                     <div className="card" id="bluebg">
-                      <img className="card-img-top" src={cardRect} alt="" />
+                      <img className="card-img-top" src={pacmacro} alt="" />
                       <div className="card-body">
                         <h2 className="boldHeader">Pac Macro</h2>
                         <p className="card-text">

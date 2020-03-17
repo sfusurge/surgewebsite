@@ -285,7 +285,7 @@ class About extends Component {
                   </figcaption>
                 </figure>
               </div>
-              <div className="col-sm-3 ">
+              <div className="col-sm">
                 <figure className="figure">
                   <img className="figure-img" src={art} alt=""></img>
                   <figcaption className="font-weight-bold">Art Yang</figcaption>
@@ -294,7 +294,7 @@ class About extends Component {
                   </figcaption>
                 </figure>
               </div>
-              <div className="col">
+              <div className="col-sm">
                 <img className="img-fluid" src={TechStartsHere} alt="" />
               </div>
             </div>
