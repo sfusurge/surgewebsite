@@ -1,17 +1,15 @@
-import React from "react";
+import React from 'react';
 import { Link } from "react-router-dom";
 import SurgeLogo from "../../assets/surge-logo-small.png";
 import "./NavBar.css";
-import SideBarToggleButton from "../SideBar/SideBarToggleButton";
+// import SideBarToggleButton from '../SideBar/SideBarToggleButton'
 
 const NavBar = props => (
   <header className="navbar">
     <nav className="navbar-navigator">
-      <div className="sidebar-toggle-button">
-        <SideBarToggleButton
-          click={props.sidebarClickHandler}
-        ></SideBarToggleButton>
-      </div>
+      {/* <div className="sidebar-toggle-button">
+                <SideBarToggleButton click={props.sidebarClickHandler}></SideBarToggleButton>
+            </div> */}
       <div className="navbar-logo">
         <Link to="/">
           <img src={SurgeLogo} alt="Surge Logo"></img>

@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.1585450ca5092301b9004af1aead9e9d.js"
+  "./precache-manifest.2fe97a9de4e3dca6dbf7a01cf73c5c57.js"
 );
 
 self.addEventListener('message', (event) => {
@@ -33,7 +33,11 @@ workbox.core.clientsClaim();
 self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
+<<<<<<< HEAD
 workbox.routing.registerNavigationRoute(workbox.precaching.getCacheKeyForURL("/index.html"), {
-  
+=======
+workbox.routing.registerNavigationRoute(workbox.precaching.getCacheKeyForURL("./index.html"), {
+>>>>>>> a9373ff08b7575c2354b2c97898d2f5493931a67
+
   blacklist: [/^\/_/,/\/[^\/?]+\.[^\/]+$/],
 });

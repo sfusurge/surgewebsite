@@ -3,7 +3,10 @@ import "../App.css";
 import projectsTitle from "../assets/PROJECTSTITLE.png";
 import rect from "../assets/rectangle.png";
 import cardRect from "../assets/cardRect.png";
-import NavBar from "./Navigation/NavBar";
+import MealMovers from "../assets/mealMovers.png";
+import buildABot from "../assets/build-a-bot.jpg";
+import degreeNav from "../assets/degreeNav.jpg";
+import area52 from "../assets/area52.png";
 import Footer from "./Navigation/Footer";
 
 class Projects extends Component {
@@ -58,13 +61,14 @@ class Projects extends Component {
                 <figure className="figure">
                   <img className="figure-img" src={rect} alt=""></img>
                   <figcaption className="font-weight-bold">
-                    Jocelyn Gao
+                    Jocelyn Gau
                   </figcaption>
                 </figure>
               </div>
             </div>
           </section>
         </div>
+
         <div className="container-fluid p-5">
           <section>
             <h1 className="boldHeader">Our Projects</h1>
@@ -72,7 +76,7 @@ class Projects extends Component {
             <div
               id="projectsCarousel"
               className="carousel slide"
-              data-ride="carousel"
+              /*data-ride="carousel"*/
             >
               <ul className="carousel-indicators">
                 <li
@@ -86,7 +90,7 @@ class Projects extends Component {
               <div className="carousel-inner">
                 <div className="carousel-item active">
                   <div className="card-deck">
-                    <div className="card">
+                    <div className="card" id="bluebg">
                       <img className="card-img-top" src={cardRect} alt="" />
                       <div className="card-body">
                         <h2 className="boldHeader">Pac Macro</h2>
@@ -96,12 +100,16 @@ class Projects extends Component {
                           players through an application on your phone, and hunt
                           them down mercilessly.
                         </p>
-                        <a href="">—View Project</a>
+                        <div className="projectLink">
+                          <a className="boldHeader" href="">
+                            —View Project
+                          </a>
+                        </div>
                       </div>
                     </div>
 
-                    <div className="card">
-                      <img className="card-img-top" src={cardRect} alt="" />
+                    <div className="card" id="bluebg">
+                      <img className="card-img-top" src={degreeNav} alt="" />
                       <div className="card-body">
                         <h2 className="boldHeader">Degree Navigator</h2>
                         <p className="card-text">
@@ -110,12 +118,16 @@ class Projects extends Component {
                           information about every SFU course and present them to
                           the user in a visual and interactive way.
                         </p>
-                        <a href="">—View Project</a>
+                        <div className="projectLink">
+                          <a className="boldHeader" href="">
+                            —View Project
+                          </a>
+                        </div>
                       </div>
                     </div>
 
-                    <div className="card">
-                      <img className="card-img-top" src={cardRect} alt="" />
+                    <div className="card" id="bluebg">
+                      <img className="card-img-top" src={area52} alt="" />
                       <div className="card-body">
                         <h2 className="boldHeader">Storm Area 52</h2>
                         <p className="card-text">
@@ -124,7 +136,11 @@ class Projects extends Component {
                           with a friend to grab as much evidence as you can and
                           get out before the alarms go off.
                         </p>
-                        <a href="">—View Project</a>
+                        <div className="projectLink">
+                          <a className="boldHeader" href="">
+                            —View Project
+                          </a>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -132,45 +148,60 @@ class Projects extends Component {
 
                 <div className="carousel-item">
                   <div className="card-deck">
-                    <div className="card">
-                      <img className="card-img-top" src={cardRect} alt="" />
+                    <div className="card" id="bluebg">
+                      <img className="card-img-top" src={MealMovers} alt="" />
                       <div className="card-body">
-                        <h2 className="boldHeader">Pac Macro</h2>
+                        <h2 className="boldHeader">Meal Movers</h2>
                         <p className="card-text">
-                          Play Pac-Man in real life across 5 square blocks of
-                          Downtown Vancouver. Track the locations of other enemy
-                          players through an application on your phone, and hunt
-                          them down mercilessly.
+                          MealMovers is a mobile app that helps connect food
+                          banks/shelters with food suppliers to streamline food
+                          donation processes. We hope to create a food delivery
+                          system that will support those in need and reduce our
+                          food waste.
                         </p>
-                        <a href="">—View Project</a>
+                        <div className="projectLink">
+                          <a className="boldHeader" href="">
+                            —View Project
+                          </a>
+                        </div>
                       </div>
                     </div>
 
-                    <div className="card">
-                      <img className="card-img-top" src={cardRect} alt="" />
+                    <div className="card" id="bluebg">
+                      <img className="card-img-top" src={buildABot} alt="" />
                       <div className="card-body">
-                        <h2 className="boldHeader">Pac Macro</h2>
+                        <h2 className="boldHeader">Build-a-Bot Royale</h2>
                         <p className="card-text">
-                          Play Pac-Man in real life across 5 square blocks of
-                          Downtown Vancouver. Track the locations of other enemy
-                          players through an application on your phone, and hunt
-                          them down mercilessly.
+                          BattleBots + Jackbox/Kahoot + Battle Royale. Join the
+                          game from a web browser, build your robot, and be the
+                          last bot standing in a Battle Royale of up to 100+
+                          players.
                         </p>
-                        <a href="">—View Project</a>
+                        <div className="projectLink">
+                          <a className="boldHeader" href="">
+                            —View Project
+                          </a>
+                        </div>
                       </div>
                     </div>
 
-                    <div className="card">
+                    <div className="card" id="bluebg">
                       <img className="card-img-top" src={cardRect} alt="" />
                       <div className="card-body">
-                        <h2 className="boldHeader">Pac Macro</h2>
+                        <h2 className="boldHeader">Schedule-Me</h2>
                         <p className="card-text">
-                          Play Pac-Man in real life across 5 square blocks of
-                          Downtown Vancouver. Track the locations of other enemy
-                          players through an application on your phone, and hunt
-                          them down mercilessly.
+                          Schedule Me is a simple and powerful way to organize
+                          meetings, while focusing on control for the organizer.
+                          How it works is a link is shared to all relevant
+                          people to poll for their availability. From there, the
+                          organizer can determine the optimal time for a
+                          meeting.
                         </p>
-                        <a href="">—View Project</a>
+                        <div className="projectLink">
+                          <a className="boldHeader" href="">
+                            —View Project
+                          </a>
+                        </div>
                       </div>
                     </div>
                   </div>

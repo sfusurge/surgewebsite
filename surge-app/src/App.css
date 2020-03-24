@@ -43,31 +43,26 @@ span {
 
 .EEI {
   /* Engage • Empower • Innovate */
-font-style: normal;
-font-weight: bold;
-font-size: 36px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
 
-padding-top: 0%;
-text-align: right;
-padding-right: 5%;
+  padding-top: 0%;
+  text-align: right;
+  padding-right: 5%;
 }
 
 .EEIdiv {
   padding: 0%;
 }
 
-.imgAndText{
+.imgAndText {
   position: relative;
-  width: 1440;
-  height: 883px;
-
+  padding: 3%;
 }
 
 .whoAreWeDiv {
-  position: absolute;
-  top: 250px;
-  left: 114px;
-  bottom: 10px;
+  position: relative;
 }
 
 .imgText {
@@ -85,7 +80,7 @@ padding-right: 5%;
   font-size: 36px;
   line-height: 43px;
 
-  color: #1C307A;
+  color: #1c307a;
 }
 
 .whoAreWeText {
@@ -95,17 +90,20 @@ padding-right: 5%;
   font-size: 20px;
   line-height: 40px;
   /* or 200% */
-  color: #1C307A;
+  color: #1c307a;
 }
 
 .whoAreWeImg {
   width: 633px;
   height: 469px;
-
-
-  background: #1C307A;
+  background: #1c307a;
   mix-blend-mode: darken;
   opacity: 0.5;
+}
+
+#learnMoreButton {
+  margin-left: 30px;
+  width: 160px;
 }
 
 .sectionHeading {
@@ -115,103 +113,101 @@ padding-right: 5%;
   font-size: 36px;
   line-height: 43px;
 
-  color: #1C307A;
+  color: #1c307a;
 }
 
-.sectionHeadingDiv{
-  padding: 5%;
+.sectionHeadingDiv {
+  padding: 2%;
 }
-.whatWeDoDiv{
+
+.whatWeDoDiv {
   position: relative;
-  margin-left: 5%;
-  height: 600px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  padding-bottom: 6%;
 }
 
-.whatWeDoImg2{
-  position: absolute;
-  top: 0%;
-  left:35%;
-  bottom: 5%;
-}
-.whatWeDoImg3{
-  position: absolute;
-  top: 0%;
-  right:5%;
-}
-
-.whatWeDoImgText1{
-  position: absolute;
-  top:2%;
-  left:8%;
-
-  font-family: Barlow;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 36px;
-  line-height: 43px;
-  text-align: center;
-
-  color: #FFFFFF;
-}
-
-.whatWeDoImgText2{
-  position: absolute;
-  top:2%;
-  left:41.5%;
-  font-family: Barlow;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 36px;
-  line-height: 43px;
-  text-align: center;
-  color: #FFFFFF;
-}
-
-.whatWeDoImgText3{
-  position: absolute;
-  top:2%;
-  right:15%;
-  font-family: Barlow;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 36px;
-  line-height: 43px;
-  text-align: center;
-  color: #FFFFFF;
-}
-
-.eventsDiv{
+.whatWeDoImgs {
   position: relative;
-  margin-left: 5%;
-  height: 600px;
+  margin: 3%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  padding-bottom: 6%;
 }
 
-.eventsBgRectangle2{
+.whatWeDoImgText1 {
   position: absolute;
-  top: 0%;
-  left:34%;
-  bottom: 5%;
-}
-.eventsBgRectangle3{
-  position: absolute;
-  top: 0%;
-  right:5%;
+  top: 2%;
+  left: 8%;
+
+  font-family: Barlow;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 43px;
+  text-align: center;
+
+  color: #ffffff;
 }
 
-.eventImg1{
+.whatWeDoImgText2 {
   position: absolute;
-  top:0%;
-  left: 0.5%;
+  top: 2%;
+  left: 41.5%;
+  font-family: Barlow;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 43px;
+  text-align: center;
+  color: #ffffff;
 }
 
-.eventText1{
+.whatWeDoImgText3 {
   position: absolute;
-  width:18%;
-  top:40%;
-  left:5%;
+  top: 2%;
+  right: 15%;
+  font-family: Barlow;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 43px;
+  text-align: center;
+  color: #ffffff;
 }
 
-.eventTextStyle{
+/* EVENTS */
+
+.eventsDiv {
+  position: relative;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.eventsBgRectangles {
+  position: relative;
+}
+
+.eventHeadingStyle {
+  font-family: Barlow;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 30px;
+  line-height: 36px;
+  color: #1c307a;
+}
+.eventImgs {
+  position: relative;
+}
+
+.eventTexts {
+  position: relative;
+}
+
+.eventTextStyle {
   font-family: Barlow;
   font-style: normal;
   font-weight: normal;
@@ -219,79 +215,33 @@ padding-right: 5%;
   line-height: 17px;
 }
 
-.eventHeadingStyle{
+.learnMoreStyle {
   font-family: Barlow;
-  font-style: normal;
-  font-weight: 800;
-  font-size: 30px;
-  line-height: 36px;
-
-  color: #1C307A;
-}
-
-.learnMore1{
-  position: absolute;
-  top:65%;
-  right:79%;
-}
-
-
-.learnMoreStyle{
-  ont-family: Barlow;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
   text-decoration-line: underline;
-
-  color: #1C307A;
+  color: #1c307a;
 }
 
-.eventImg2{
-  position: absolute;
-  top:0%;
-  left: 3%;
+.moreComing {
+  position: relative;
 }
 
-.eventText2{
-  position: absolute;
-  width:60%;
-  top:40%;
-  left:18%;
+#moreComingBody {
+  padding-top: 30%;
+  padding-left: 20%;
 }
 
-.learnMore2{
-  position: absolute;
-  top:65%;
-  right:20%;
-}
-
-.moreComing{
-  position: absolute;
-  width:20%;
-  right: 8%;
-  top:30%;
-}
-
-.moreComingStyle{
+#moreComingStyle {
   font-family: Barlow;
   font-style: normal;
   font-weight: 800;
   font-size: 40px;
   line-height: 48px;
-
-  color: #1C307A;
+  color: #1c307a;
 }
-
-
-
-
-
-
-
-
-
-
 
 /*Start of About and Projects*/
 .boldHeader,
@@ -373,10 +323,14 @@ figcaption {
 }
 
 .carousel .carousel-indicators li {
-  background-color: grey;
   border-radius: 100%;
+  border: solid 1px #1c307a;
   height: 20px;
   width: 20px;
+}
+
+.carousel .carousel-indicators li.active {
+  background: #1c307a;
 }
 
 #projectsCarousel {
@@ -396,4 +350,9 @@ figcaption {
 
 .col {
   padding: 5%;
+}
+
+.projectLink,
+.eventLink {
+  float: right;
 }

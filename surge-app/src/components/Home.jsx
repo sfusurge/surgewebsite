@@ -1,20 +1,29 @@
 import React, { Component } from "react";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
+import Container from "react-bootstrap/Container";
+import Image from "react-bootstrap/Image";
+import { Link } from "react-router-dom";
+
 import "../style/home.css";
 import homeTitle from "../assets/SURGETITLE.png";
 import whoAreWe from "../assets/whoAreWe.png";
 import rect from "../assets/rectangle.png";
-import whatWeDoImg1 from "../assets/whatWeDoImg1.png"
-import whatWeDoImg2 from "../assets/whatWeDoImg2.png"
-import whatWeDoImg3 from "../assets/whatWeDoImg3.png"
-import eventsBgRectangle from "../assets/eventsBgRectangle.png"
-import eventImg1 from "../assets/eventImg1.png"
-import eventImg2 from "../assets/eventImg2.png"
+import whatWeDoImg1 from "../assets/whatWeDoImg1.png";
+import whatWeDoImg2 from "../assets/whatWeDoImg2.png";
+import whatWeDoImg3 from "../assets/whatWeDoImg3.png";
+import eventsBgRectangle from "../assets/eventsBgRectangle.png";
+import eventImg1 from "../assets/eventImg1.png";
+import eventImg2 from "../assets/eventImg2.png";
+import cardRect from "../assets/cardRect.png";
+import leetcode from "../assets/leetcodeParties.jpg";
 import Footer from "./Navigation/Footer.js";
+
 class Home extends Component {
   state = {};
   render() {
     return (
-      <React.Fragment>
+      <React.Fragment className="appContainer">
         <div className="container-fluid" id="homeHeaderImg">
           <section id="pgHeadingHome">
             <div className="titleDiv">
@@ -28,124 +37,174 @@ class Home extends Component {
           </section>
 
           <div className="EEIdiv">
-            <p className="EEI">
-              <b>Engage • Empower • Innovate </b>
-            </p>
+            <Container>
+              <Row>
+                <Col md={({ offset: 6 }, 12)} xs={11} sm={12}>
+                  <p className="EEI">
+                    <b>Engage • Empower • Innovate </b>
+                  </p>
+                </Col>
+              </Row>
+            </Container>
           </div>
         </div>
 
         <div className="container-fluid">
           <div className="imgAndText">
-            <div className="whoAreWeDiv">
-              <img
-                className="img-fluid"
-                src={whoAreWe}
-                alt=""
-              />
-            </div>
-
-            <div className = "imgText">
-              <p className="whoAreWeHeading">Who Are We</p>
-              <p className="whoAreWeText"> SFU Surge is an all-inclusive organization to promote curiosity and excitement for a future in technology, while guiding students on their paths to career success.</p>
-            </div>
+            <Container>
+              <div className="whoAreWeDiv">
+                <Row>
+                  <Col lg={6}>
+                    <Image className="img-fluid" src={whoAreWe} />
+                  </Col>
+                  <Col lg={6}>
+                    <p className="whoAreWeHeading">Who Are We</p>
+                    <p className="whoAreWeText">
+                      {" "}
+                      SFU Surge is an all-inclusive organization to promote{" "}
+                      <b>
+                        curiosity and excitement for a future in technology,
+                      </b>{" "}
+                      while guiding students on their paths to{" "}
+                      <b>career success</b>.
+                    </p>
+                    <a
+                      role="button"
+                      className="btn btn-primary"
+                      href={
+                        "https://gmail.us4.list-manage.com/subscribe/post?u=33345c9bc17f10bac6afdd0ac&id=736d801cb8"
+                      }
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Join our newsletter!
+                    </a>
+                    <Link to="/about">
+                      <button
+                        type="button"
+                        id="learnMoreButton"
+                        className="btn btn-secondary"
+                      >
+                        Learn more
+                      </button>
+                    </Link>
+                  </Col>
+                </Row>
+              </div>
+            </Container>
           </div>
         </div>
 
         <div className="container-fluid" id="bluebg">
-          <div className="sectionHeadingDiv">
-            <p  className="sectionHeading">What We Do</p>
-          </div>
-          <div className="whatWeDoDiv">
-            <div className="whatWeDoImg1">
-              <img
-                className="img-fluid"
-                src={whatWeDoImg1}
-                alt=""
-              />
-              <p className="whatWeDoImgText1">Projects</p>
+          <section>
+            <div className="sectionHeadingDiv">
+              <p className="sectionHeading">What We Do</p>
             </div>
-            <div className="whatWeDoImg2">
-              <img
-                className="img-fluid"
-                src={whatWeDoImg2}
-                alt=""
-              />
+            <div className="whatWeDoDiv">
+              <Container>
+                <Row>
+                  <Col lg={4} md={4} sm={6} xs={4}>
+                    <div class="whatWeDoImgs">
+                      <p className="whatWeDoImgText1">Projects</p>
+                      <Image className="img-fluid" src={whatWeDoImg1} fluid />
+                    </div>
+                  </Col>
+
+                  <Col lg={4} md={4} sm={6} xs={4}>
+                    <div class="whatWeDoImgs">
+                      <p className="whatWeDoImgText2">Workshops</p>
+                      <Image className="img-fluid" src={whatWeDoImg2} fluid />
+                    </div>
+                  </Col>
+
+                  <Col lg={4} md={4} sm={6} xs={4}>
+                    <div class="whatWeDoImgs">
+                      <p className="whatWeDoImgText3">Events</p>
+                      <Image className="img-fluid" src={whatWeDoImg3} fluid />
+                    </div>
+                  </Col>
+                </Row>
+              </Container>
             </div>
-            <p className="whatWeDoImgText2">Workshops</p>
-            <div className="whatWeDoImg3">
-              <img
-                className="img-fluid"
-                src={whatWeDoImg3}
-                alt=""
-              />
-            </div>
-            <p className="whatWeDoImgText3">Events</p>
-          </div>
+          </section>
         </div>
 
         <div className="container-fluid">
-          <div className="sectionHeadingDiv">
-            <p  className="sectionHeading">Upcoming Events</p>
-          </div>
-
-          <div className="eventsDiv">
-            <div className="eventsBgRectangle1">
-              <img
-                className="img-fluid"
-                src={eventsBgRectangle}
-                alt=""
-              />
-            </div>
-            <div className="eventImg1">
-              <img
-                className="img-fluid"
-                src={eventImg1}
-                alt=""
-              />
-            </div>
-            <div className="eventText1">
-              <h className="eventHeadingStyle">TECH Talk</h>
-              <p className="eventTextStyle">Want to learn more about the process of entrepreneurship and the intersections between business and technology? We are thrilled to announce TECH Talk with guest speaker Jeremy Becker!</p>
-            </div>
-            <div className="learnMore1">
-              <a href="" className="learnMoreStyle">Learn More</a>
+          <section>
+            <div className="sectionHeadingDiv">
+              <p className="sectionHeading">Upcoming Events</p>
             </div>
 
-            <div className="eventsBgRectangle2">
-              <img
-                className="img-fluid"
-                src={eventsBgRectangle}
-                alt=""
-              />
-              <div className="eventImg2">
-                <img
-                  className="img-fluid"
-                  src={eventImg2}
-                  alt=""
-                />
+            <div
+              id="eventsCarousel"
+              className="carousel slide"
+              /*data-ride="carousel"*/
+            >
+              <div className="carousel-inner">
+                <div className="carousel-item active">
+                  <div className="card-deck">
+                    <div className="card" id="bluebg">
+                      <img className="card-img-top" src={leetcode} alt="" />
+                      <div className="card-body">
+                        <h2 className="boldHeader">LEETCODE Parties</h2>
+                        <p className="card-text">
+                          We are excited to present our Leetcode workshops! This
+                          workshop is open to all, occuring on a weekly basis
+                          from 5pm to 6:30pm, between the Surrey and Burnaby
+                          campuses. Join us at ASB 9705 in Burnaby or SYRC 3270
+                          at Surrey!
+                        </p>
+                        <div className="eventLink">
+                          <a
+                            className="boldHeader"
+                            href="https://www.facebook.com/events/568464263996888/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            —Learn more
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div className="card" id="bluebg">
+                      <img className="card-img-top" src={cardRect} alt="" />
+                      <div className="card-body">
+                        <h2 className="boldHeader">PROJECTS Showcase</h2>
+                        <p className="card-text">
+                          Join us on Tuesday, March 31st for a showcase of the
+                          projects that SFU Surge has been working hard on for
+                          the past months. Come out for food and an opportunity
+                          to see what our talented teams have been building and
+                          designing!
+                        </p>
+                        <div className="eventLink">
+                          <a
+                            className="boldHeader"
+                            href=""
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            —Learn more
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div className="card text-center" id="bluebg">
+                      <div className="card-body" id="moreComingBody">
+                        <div className="moreComing">
+                          <p className="card-text" id="moreComingStyle">
+                            MORE EVENTS COMING SOON!
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
-              <div className="eventText2">
-                <h className="eventHeadingStyle">Linux Workshop</h>
-                <p className="eventTextStyle">On November 22, Kasra Jamshidi will be teaching the basic skills and foundation needed to operate and run Linux. A majority (if not all) of tech-related jobs and classes rely heavily on this system, especially scripting.</p>
-              </div>
-              <div className="learnMore2">
-                <a href="" className="learnMoreStyle">Learn More</a>
-              </div>
             </div>
-
-            <div className="eventsBgRectangle3">
-              <img
-                className="img-fluid"
-                src={eventsBgRectangle}
-                alt=""
-              />
-            </div>
-
-            <div className="moreComing">
-              <p className="moreComingStyle">More Events Comming Soon!</p>
-            </div>
-          </div>
-
+          </section>
         </div>
         <Footer></Footer>
       </React.Fragment>
