@@ -294,8 +294,7 @@ class About extends Component {
                   </figcaption>
                 </figure>
               </div>
-              <div className="col">
-                <img className="img-fluid" src={TechStartsHere} alt="" />
+              <div className="col-sm">
               </div>
             </div>
           </section>
