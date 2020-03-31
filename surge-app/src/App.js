@@ -8,7 +8,6 @@ import NavBar from "./components/Navigation/NavBar";
 // import PageFade from "./components/SideBar/PageFade";
 import Home from "./components/Home";
 
-import "bootstrap/dist/css/bootstrap.min.css";
 
 class App extends Component {
   // state = {

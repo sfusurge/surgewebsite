@@ -256,7 +256,7 @@ span {
 }
 
 #projectsHeaderImg {
-  background-image: url("assets/projectsHeader.png");
+  background-image: url("assets/projectsHeader.jpg");
   background-repeat: no-repeat;
   background-size: contain;
   opacity: 0.9;
@@ -315,11 +315,16 @@ figcaption {
 
 .card {
   padding: 1%;
-  height: 499px;
+  height: 500px;
 }
 
 .card-body {
   padding: 10%;
+}
+
+.scrollableText {
+  overflow-y: auto;
+  max-height: 120px;
 }
 
 .carousel .carousel-indicators li {
@@ -338,7 +343,7 @@ figcaption {
 }
 
 #aboutUsHeaderImg {
-  background-image: url("assets/aboutHeader.png");
+  background-image: url("assets/aboutHeader.jpg");
   background-repeat: no-repeat;
   background-size: contain;
   opacity: 0.9;

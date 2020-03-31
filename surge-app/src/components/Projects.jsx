@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import "../App.css";
 import projectsTitle from "../assets/PROJECTSTITLE.png";
 import rect from "../assets/rectangle.png";
 import cardRect from "../assets/cardRect.png";
@@ -192,11 +191,10 @@ class Projects extends Component {
                         <h2 className="boldHeader">Schedule-Me</h2>
                         <p className="card-text">
                           Schedule Me is a simple and powerful way to organize
-                          meetings, while focusing on control for the organizer.
-                          How it works is a link is shared to all relevant
-                          people to poll for their availability. From there, the
-                          organizer can determine the optimal time for a
-                          meeting.
+                          meetings. How it works is a link is shared to all
+                          relevant people to poll for their availability. From
+                          there, the organizer can determine the optimal time
+                          for a meeting.
                         </p>
                         <div className="projectLink">
                           <a className="boldHeader" href="">
