@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import "../App.css";
 import aboutUsTitle from "../assets/ABOUT US.png";
 import TechStartsHere from "../assets/#TechStartsHere.png";
 import rect from "../assets/rectangle.png";
@@ -285,7 +284,7 @@ class About extends Component {
                   </figcaption>
                 </figure>
               </div>
-              <div className="col-sm ">
+              <div className="col-sm">
                 <figure className="figure">
                   <img className="figure-img" src={art} alt=""></img>
                   <figcaption className="font-weight-bold">Art Yang</figcaption>
@@ -294,8 +293,8 @@ class About extends Component {
                   </figcaption>
                 </figure>
               </div>
-              <div className="col">
-                <img className="img-fluid" src={TechStartsHere} alt="" />
+              <div className="col-sm">
+                
               </div>
             </div>
           </section>

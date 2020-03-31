@@ -13,8 +13,6 @@ import whatWeDoImg1 from "../assets/whatWeDoImg1.png";
 import whatWeDoImg2 from "../assets/whatWeDoImg2.png";
 import whatWeDoImg3 from "../assets/whatWeDoImg3.png";
 import eventsBgRectangle from "../assets/eventsBgRectangle.png";
-import eventImg1 from "../assets/eventImg1.png";
-import eventImg2 from "../assets/eventImg2.png";
 import cardRect from "../assets/cardRect.png";
 import leetcode from "../assets/leetcodeParties.jpg";
 import Footer from "./Navigation/Footer.js";
@@ -171,13 +169,15 @@ class Home extends Component {
                       <img className="card-img-top" src={cardRect} alt="" />
                       <div className="card-body">
                         <h2 className="boldHeader">PROJECTS Showcase</h2>
-                        <p className="card-text">
-                          Join us on Tuesday, March 31st for a showcase of the
-                          projects that SFU Surge has been working hard on for
-                          the past months. Come out for food and an opportunity
-                          to see what our talented teams have been building and
-                          designing!
-                        </p>
+                        <div className="scrollableText">
+                          <p className="card-text">
+                            Join us on Tuesday, March 31st for a showcase of the
+                            projects that SFU Surge has been working hard on for
+                            the past months. Come out for food and an opportunity
+                            to see what our talented teams have been building and
+                            designing!
+                          </p>
+                        </div>
                         <div className="eventLink">
                           <a
                             className="boldHeader"
