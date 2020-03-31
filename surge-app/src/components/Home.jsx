@@ -145,13 +145,15 @@ class Home extends Component {
                       <img className="card-img-top" src={leetcode} alt="" />
                       <div className="card-body">
                         <h2 className="boldHeader">LEETCODE Parties</h2>
-                        <p className="card-text">
-                          We are excited to present our Leetcode workshops! This
-                          workshop is open to all, occuring on a weekly basis
-                          from 5pm to 6:30pm, between the Surrey and Burnaby
-                          campuses. Join us at ASB 9705 in Burnaby or SYRC 3270
-                          at Surrey!
-                        </p>
+                        <div className="scrollableText">
+                          <p className="card-text">
+                            We are excited to present our Leetcode workshops! This
+                            workshop is open to all, occuring on a weekly basis
+                            from 5pm to 6:30pm, between the Surrey and Burnaby
+                            campuses. Join us at ASB 9705 in Burnaby or SYRC 3270
+                            at Surrey!
+                          </p>
+                        </div>
                         <div className="eventLink">
                           <a
                             className="boldHeader"
