@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import "../App.css";
 import projectsTitle from "../assets/PROJECTSTITLE.png";
 import rect from "../assets/rectangle.png";
 import cardRect from "../assets/cardRect.png";
@@ -7,6 +6,7 @@ import MealMovers from "../assets/mealMovers.png";
 import buildABot from "../assets/build-a-bot.jpg";
 import degreeNav from "../assets/degreeNav.jpg";
 import area52 from "../assets/area52.png";
+import pacmacro from "../assets/pacmacro.jpg";
 import Footer from "./Navigation/Footer";
 
 class Projects extends Component {
@@ -91,7 +91,7 @@ class Projects extends Component {
                 <div className="carousel-item active">
                   <div className="card-deck">
                     <div className="card" id="bluebg">
-                      <img className="card-img-top" src={cardRect} alt="" />
+                      <img className="card-img-top" src={pacmacro} alt="" />
                       <div className="card-body">
                         <h2 className="boldHeader">Pac Macro</h2>
                         <p className="card-text">
@@ -191,11 +191,10 @@ class Projects extends Component {
                         <h2 className="boldHeader">Schedule-Me</h2>
                         <p className="card-text">
                           Schedule Me is a simple and powerful way to organize
-                          meetings, while focusing on control for the organizer.
-                          How it works is a link is shared to all relevant
-                          people to poll for their availability. From there, the
-                          organizer can determine the optimal time for a
-                          meeting.
+                          meetings. How it works is a link is shared to all
+                          relevant people to poll for their availability. From
+                          there, the organizer can determine the optimal time
+                          for a meeting.
                         </p>
                         <div className="projectLink">
                           <a className="boldHeader" href="">
