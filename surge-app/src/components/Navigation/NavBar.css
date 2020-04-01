@@ -55,7 +55,7 @@
   text-decoration: none;
 }
 
-/* @media (max-width: 768px){
+@media (max-width: 768px){
     .navbar-items{
         display: none;
     }
@@ -67,5 +67,5 @@
     .navbar-logo{
         margin-left: 0;
     }
-} */
+}
 
