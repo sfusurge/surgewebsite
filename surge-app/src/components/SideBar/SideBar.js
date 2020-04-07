@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 import './SideBar.css';
 
 const SideBar = props => {
@@ -10,9 +11,12 @@ const SideBar = props => {
     return(
         <nav className={sidebarClasses}>
             <ul>
-                {/* update these links later to match navbar */}
-                <li><a href="/">About</a></li>
-                <li><a href="/">ProjectHub</a></li>
+                <Link to="/about">
+                    <li>About</li>
+                </Link>
+                <Link to="/projects">
+                    <li>ProjectHub</li>
+                </Link>
             </ul>
         </nav>
     );
