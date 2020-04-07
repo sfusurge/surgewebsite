@@ -9,9 +9,9 @@ import "../style/home.css";
 import homeTitle from "../assets/SURGETITLE.png";
 import whoAreWe from "../assets/whoAreWe.png";
 import rect from "../assets/rectangle.png";
-import whatWeDoImg1 from "../assets/whatWeDoImg1.png";
-import whatWeDoImg2 from "../assets/whatWeDoImg2.png";
-import whatWeDoImg3 from "../assets/whatWeDoImg3.png";
+import whatWeDoImg1 from "../assets/Projects.jpg";
+import whatWeDoImg2 from "../assets/Workshops.jpg";
+import whatWeDoImg3 from "../assets/Events.jpg";
 import eventsBgRectangle from "../assets/eventsBgRectangle.png";
 import cardRect from "../assets/cardRect.png";
 import leetcode from "../assets/leetcodeParties.jpg";
@@ -21,7 +21,7 @@ class Home extends Component {
   state = {};
   render() {
     return (
-      <React.Fragment className="appContainer">
+      <React.Fragment>
         <div className="container-fluid" id="homeHeaderImg">
           <section id="pgHeadingHome">
             <div className="titleDiv">
@@ -42,6 +42,15 @@ class Home extends Component {
                     <b>Engage • Empower • Innovate </b>
                   </p>
                 </Col>
+              </Row>
+            </Container>
+          </div>
+          <div className="mobileEEIdiv">
+            <Container>
+              <Row>    
+                  <div className="EEItext">
+                    <b>Engage • Empower • Innovate </b>
+                  </div>
               </Row>
             </Container>
           </div>
@@ -66,26 +75,29 @@ class Home extends Component {
                       while guiding students on their paths to{" "}
                       <b>career success</b>.
                     </p>
-                    <a
-                      role="button"
-                      className="btn btn-primary"
-                      href={
-                        "https://gmail.us4.list-manage.com/subscribe/post?u=33345c9bc17f10bac6afdd0ac&id=736d801cb8"
-                      }
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      Join our newsletter!
-                    </a>
-                    <Link to="/about">
-                      <button
-                        type="button"
-                        id="learnMoreButton"
-                        className="btn btn-secondary"
+                    <div className="action-btns">
+                      <a
+                        role="button"
+                        id="joinNewsletterBtn"
+                        className="btn btn-primary"
+                        href={
+                          "https://gmail.us4.list-manage.com/subscribe/post?u=33345c9bc17f10bac6afdd0ac&id=736d801cb8"
+                        }
+                        target="_blank"
+                        rel="noopener noreferrer"
                       >
-                        Learn more
-                      </button>
-                    </Link>
+                        Join our newsletter!
+                      </a>
+                      <Link to="/about">
+                        <button
+                          type="button"
+                          id="learnMoreButton"
+                          className="btn btn-secondary"
+                        >
+                          Learn more
+                        </button>
+                      </Link>
+                    </div>                
                   </Col>
                 </Row>
               </div>
@@ -100,28 +112,28 @@ class Home extends Component {
             </div>
             <div className="whatWeDoDiv">
               <Container>
-                <Row>
-                  <Col lg={4} md={4} sm={6} xs={4}>
-                    <div class="whatWeDoImgs">
-                      <p className="whatWeDoImgText1">Projects</p>
+                <div className="row">
+                  <div className="col-sm">
+                    <div className="whatWeDoImgs">                
                       <Image className="img-fluid" src={whatWeDoImg1} fluid />
+                      <div className="whatWeDoImgText1">Projects</div>
                     </div>
-                  </Col>
+                  </div>
 
-                  <Col lg={4} md={4} sm={6} xs={4}>
-                    <div class="whatWeDoImgs">
-                      <p className="whatWeDoImgText2">Workshops</p>
+                  <div className="col-sm">
+                    <div className="whatWeDoImgs">
+                      <div className="whatWeDoImgText2">Workshops</div>
                       <Image className="img-fluid" src={whatWeDoImg2} fluid />
                     </div>
-                  </Col>
+                  </div>
 
-                  <Col lg={4} md={4} sm={6} xs={4}>
-                    <div class="whatWeDoImgs">
-                      <p className="whatWeDoImgText3">Events</p>
+                  <div className="col-sm">
+                    <div className="whatWeDoImgs">
+                      <div className="whatWeDoImgText3">Events</div>
                       <Image className="img-fluid" src={whatWeDoImg3} fluid />
                     </div>
-                  </Col>
-                </Row>
+                  </div>
+                </div>
               </Container>
             </div>
           </section>

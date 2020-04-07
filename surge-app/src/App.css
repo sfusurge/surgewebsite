@@ -56,6 +56,10 @@ span {
   padding: 0%;
 }
 
+.mobileEEIdiv{
+  display: none;
+}
+
 .imgAndText {
   position: relative;
   padding: 3%;
@@ -130,6 +134,7 @@ span {
 
 .whatWeDoImgs {
   position: relative;
+  text-align: center;
   margin: 3%;
   left: 0;
   right: 0;
@@ -139,8 +144,9 @@ span {
 
 .whatWeDoImgText1 {
   position: absolute;
-  top: 2%;
-  left: 8%;
+  top: 12%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 
   font-family: Barlow;
   font-style: normal;
@@ -154,8 +160,10 @@ span {
 
 .whatWeDoImgText2 {
   position: absolute;
-  top: 2%;
-  left: 41.5%;
+  top: 12%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
   font-family: Barlow;
   font-style: normal;
   font-weight: bold;
@@ -167,8 +175,10 @@ span {
 
 .whatWeDoImgText3 {
   position: absolute;
-  top: 2%;
-  right: 15%;
+  top: 12%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
   font-family: Barlow;
   font-style: normal;
   font-weight: bold;
@@ -360,4 +370,43 @@ figcaption {
 .projectLink,
 .eventLink {
   float: right;
+}
+
+/* Mobile view */
+@media (max-width: 768px){
+  .container-fluid,.row,.whoAreWeHeading,.whoAreWeText, .action-btns, .sectionHeading{
+    text-align: center;
+  }
+
+  .EEIdiv {
+    display: none;
+  }
+
+  .mobileEEIdiv{
+    display: block;
+  }
+
+  .EEItext {
+    /* Engage • Empower • Innovate */
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    font-family: "Barlow", sans-serif;
+    color: #1c307a;
+    
+    padding-top: 10%;
+    width: 100%;
+    text-align: center;
+  }
+
+  #learnMoreButton {
+    margin-left: 0px;
+    width: 160px;
+    height: 40px;
+  }
+
+  #joinNewsletterBtn{
+    margin: 20px;
+    height: 40px;
+  }
 }
