@@ -52,6 +52,7 @@
 .navbar-items a:hover,
 .navbar-items a:active {
   opacity: 1;
+  color: #4761bf;
   text-decoration: none;
 }
 

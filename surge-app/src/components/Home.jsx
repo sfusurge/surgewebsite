@@ -21,7 +21,7 @@ class Home extends Component {
   state = {};
   render() {
     return (
-      <React.Fragment className="appContainer">
+      <React.Fragment>
         <div className="container-fluid" id="homeHeaderImg">
           <section id="pgHeadingHome">
             <div className="titleDiv">
@@ -66,26 +66,29 @@ class Home extends Component {
                       while guiding students on their paths to{" "}
                       <b>career success</b>.
                     </p>
-                    <a
-                      role="button"
-                      className="btn btn-primary"
-                      href={
-                        "https://gmail.us4.list-manage.com/subscribe/post?u=33345c9bc17f10bac6afdd0ac&id=736d801cb8"
-                      }
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      Join our newsletter!
-                    </a>
-                    <Link to="/about">
-                      <button
-                        type="button"
-                        id="learnMoreButton"
-                        className="btn btn-secondary"
+                    <div className="action-btns">
+                      <a
+                        role="button"
+                        id="joinNewsletterBtn"
+                        className="btn btn-primary"
+                        href={
+                          "https://gmail.us4.list-manage.com/subscribe/post?u=33345c9bc17f10bac6afdd0ac&id=736d801cb8"
+                        }
+                        target="_blank"
+                        rel="noopener noreferrer"
                       >
-                        Learn more
-                      </button>
-                    </Link>
+                        Join our newsletter!
+                      </a>
+                      <Link to="/about">
+                        <button
+                          type="button"
+                          id="learnMoreButton"
+                          className="btn btn-secondary"
+                        >
+                          Learn more
+                        </button>
+                      </Link>
+                    </div>                
                   </Col>
                 </Row>
               </div>
@@ -102,21 +105,21 @@ class Home extends Component {
               <Container>
                 <Row>
                   <Col lg={4} md={4} sm={6} xs={4}>
-                    <div class="whatWeDoImgs">
+                    <div className="whatWeDoImgs">
                       <p className="whatWeDoImgText1">Projects</p>
                       <Image className="img-fluid" src={whatWeDoImg1} fluid />
                     </div>
                   </Col>
 
                   <Col lg={4} md={4} sm={6} xs={4}>
-                    <div class="whatWeDoImgs">
+                    <div className="whatWeDoImgs">
                       <p className="whatWeDoImgText2">Workshops</p>
                       <Image className="img-fluid" src={whatWeDoImg2} fluid />
                     </div>
                   </Col>
 
                   <Col lg={4} md={4} sm={6} xs={4}>
-                    <div class="whatWeDoImgs">
+                    <div className="whatWeDoImgs">
                       <p className="whatWeDoImgText3">Events</p>
                       <Image className="img-fluid" src={whatWeDoImg3} fluid />
                     </div>

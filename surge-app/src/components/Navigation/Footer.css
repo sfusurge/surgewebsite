@@ -13,6 +13,7 @@
 }
 
 .footer-items {
+  width: 100%;
   position: relative;
   padding-left: 8%;
 }
@@ -28,4 +29,20 @@
 
 .footer-items li a:hover {
   opacity: 0.8;
+}
+
+@media (max-width: 768px){
+  .footer {
+    position: relative;
+    width: 100%;
+    background: #abc5ed;
+    height: 124px;
+    text-align: center;
+  }
+
+  .footer-items {
+    width: 100%;
+    position: relative;
+    text-align: center;
+  }
 }

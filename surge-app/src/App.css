@@ -361,3 +361,31 @@ figcaption {
 .eventLink {
   float: right;
 }
+
+/* Mobile view */
+@media (max-width: 768px){
+  .container-fluid,.row,.whoAreWeHeading,.whoAreWeText, .action-btns, .sectionHeading{
+    text-align: center;
+  }
+
+  .EEI {
+    /* Engage • Empower • Innovate */
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+
+    text-align: center;
+    width: 100%;
+  }
+
+  #learnMoreButton {
+    margin-left: 0px;
+    width: 160px;
+    height: 40px;
+  }
+
+  #joinNewsletterBtn{
+    margin: 20px;
+    height: 40px;
+  }
+}
