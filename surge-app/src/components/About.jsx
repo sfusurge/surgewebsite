@@ -181,22 +181,26 @@ class About extends Component {
               </div>
               <div className="w-100"></div>
               <div className="col-sm">
-                <img className="figure-img" src={rect} alt="" />
-                <figcaption className="font-weight-bold">
-                  Kaveh Alemi
-                </figcaption>
-                <figcaption className="position">
-                  Director of External Relations
-                </figcaption>
+                <figure className="figure">
+                  <img className="figure-img" src={rect} alt=""></img>
+                  <figcaption className="font-weight-bold">
+                    Kaveh Alemi
+                  </figcaption>
+                  <figcaption className="position">
+                    Director of External Relations
+                  </figcaption>
+                </figure>
               </div>
               <div className="col-sm">
-                <img className="figure-img" src={rect} alt="" />
-                <figcaption className="font-weight-bold">
-                  Nargis Ghiasi
-                </figcaption>
-                <figcaption className="position">
-                  External Relations Coordinator
-                </figcaption>
+                <figure className="figure">
+                  <img className="figure-img" src={rect} alt=""></img>
+                  <figcaption className="font-weight-bold">
+                    Nargis Ghiasi
+                  </figcaption>
+                  <figcaption className="position">
+                    External Relations Coordinator
+                  </figcaption>
+                </figure>
               </div>
               <div className="col-sm">
                 <figure className="figure">

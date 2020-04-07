@@ -9,9 +9,9 @@ import "../style/home.css";
 import homeTitle from "../assets/SURGETITLE.png";
 import whoAreWe from "../assets/whoAreWe.png";
 import rect from "../assets/rectangle.png";
-import whatWeDoImg1 from "../assets/whatWeDoImg1.png";
-import whatWeDoImg2 from "../assets/whatWeDoImg2.png";
-import whatWeDoImg3 from "../assets/whatWeDoImg3.png";
+import whatWeDoImg1 from "../assets/Projects.jpg";
+import whatWeDoImg2 from "../assets/Workshops.jpg";
+import whatWeDoImg3 from "../assets/Events.jpg";
 import eventsBgRectangle from "../assets/eventsBgRectangle.png";
 import cardRect from "../assets/cardRect.png";
 import leetcode from "../assets/leetcodeParties.jpg";
@@ -42,6 +42,15 @@ class Home extends Component {
                     <b>Engage • Empower • Innovate </b>
                   </p>
                 </Col>
+              </Row>
+            </Container>
+          </div>
+          <div className="mobileEEIdiv">
+            <Container>
+              <Row>    
+                  <div className="EEItext">
+                    <b>Engage • Empower • Innovate </b>
+                  </div>
               </Row>
             </Container>
           </div>
@@ -103,28 +112,28 @@ class Home extends Component {
             </div>
             <div className="whatWeDoDiv">
               <Container>
-                <Row>
-                  <Col lg={4} md={4} sm={6} xs={4}>
-                    <div className="whatWeDoImgs">
-                      <p className="whatWeDoImgText1">Projects</p>
+                <div className="row">
+                  <div className="col-sm">
+                    <div className="whatWeDoImgs">                
                       <Image className="img-fluid" src={whatWeDoImg1} fluid />
+                      <div className="whatWeDoImgText1">Projects</div>
                     </div>
-                  </Col>
+                  </div>
 
-                  <Col lg={4} md={4} sm={6} xs={4}>
+                  <div className="col-sm">
                     <div className="whatWeDoImgs">
-                      <p className="whatWeDoImgText2">Workshops</p>
+                      <div className="whatWeDoImgText2">Workshops</div>
                       <Image className="img-fluid" src={whatWeDoImg2} fluid />
                     </div>
-                  </Col>
+                  </div>
 
-                  <Col lg={4} md={4} sm={6} xs={4}>
+                  <div className="col-sm">
                     <div className="whatWeDoImgs">
-                      <p className="whatWeDoImgText3">Events</p>
+                      <div className="whatWeDoImgText3">Events</div>
                       <Image className="img-fluid" src={whatWeDoImg3} fluid />
                     </div>
-                  </Col>
-                </Row>
+                  </div>
+                </div>
               </Container>
             </div>
           </section>

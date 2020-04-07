@@ -13,12 +13,14 @@
 }
 
 .footer-items {
+  display: flex;
   width: 100%;
   position: relative;
-  padding-left: 8%;
+  padding-left: 10%;
 }
 
 .footer-items ul {
+  padding-left: 0%;
   list-style: none;
   display: flex;
 }
@@ -41,8 +43,15 @@
   }
 
   .footer-items {
+    padding-left: 0%;
+    display: flex;
+    justify-content: center;
     width: 100%;
     position: relative;
     text-align: center;
+  }
+
+  .footer-items ul {
+    padding-left: 0%;
   }
 }
