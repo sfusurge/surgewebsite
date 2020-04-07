@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e2c355bce375424462015f1cab10e60e",
+    "revision": "b42629ad9d378031df851f163746a652",
     "url": "./index.html"
   },
   {
-    "revision": "8e7b08fd37acdba05e0e",
+    "revision": "feeb41ca8d547a5c69ad",
     "url": "./static/css/2.47e06e2e.chunk.css"
   },
   {
-    "revision": "3f41493809a833d7fb0a",
-    "url": "./static/css/main.06f7740b.chunk.css"
+    "revision": "4425ce65258474f338a5",
+    "url": "./static/css/main.053af2ef.chunk.css"
   },
   {
-    "revision": "8e7b08fd37acdba05e0e",
-    "url": "./static/js/2.48c8b965.chunk.js"
+    "revision": "feeb41ca8d547a5c69ad",
+    "url": "./static/js/2.0cd82f03.chunk.js"
   },
   {
     "revision": "bf23039b4e70a07c5aeb1b4010df3572",
-    "url": "./static/js/2.48c8b965.chunk.js.LICENSE.txt"
+    "url": "./static/js/2.0cd82f03.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "3f41493809a833d7fb0a",
-    "url": "./static/js/main.3f782e06.chunk.js"
+    "revision": "4425ce65258474f338a5",
+    "url": "./static/js/main.d2d5f101.chunk.js"
   },
   {
     "revision": "fd1c70d878e3672003cf",
@@ -32,16 +32,28 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "./static/media/ABOUT US.babbbcb6.png"
   },
   {
+    "revision": "6496a614abac640e814ef1cc53ab39db",
+    "url": "./static/media/Events.6496a614.jpg"
+  },
+  {
     "revision": "32a2bc0448d23bbcc4c72cf9daf4451e",
     "url": "./static/media/PROJECTSTITLE.32a2bc04.png"
+  },
+  {
+    "revision": "4a41a556aff00a527e9b1c3af2dd729e",
+    "url": "./static/media/Projects.4a41a556.jpg"
   },
   {
     "revision": "4105ba35a34fdcdd5ca94fe2f1a6cf06",
     "url": "./static/media/SURGETITLE.4105ba35.png"
   },
   {
-    "revision": "b5c09919c191d4b6ba98acb06e813ecb",
-    "url": "./static/media/aboutHeader.b5c09919.png"
+    "revision": "c6b361d8ab3acebacd360312625369ba",
+    "url": "./static/media/Workshops.c6b361d8.jpg"
+  },
+  {
+    "revision": "d00727cf859469c8bf3bd647291139d6",
+    "url": "./static/media/aboutHeader.d00727cf.jpg"
   },
   {
     "revision": "855be1298059d20408475ae316343da5",
@@ -66,14 +78,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "eb3e3f56eb8d0d08eeef13e019f49c5c",
     "url": "./static/media/emma.eb3e3f56.JPG"
-  },
-  {
-    "revision": "243cd3494ba860ee42f5c7225b8732d3",
-    "url": "./static/media/eventImg1.243cd349.png"
-  },
-  {
-    "revision": "6fa0d87080ef3615ffadaa0899f74b3f",
-    "url": "./static/media/eventImg2.6fa0d870.png"
   },
   {
     "revision": "7aac104e8b818fea5cfc95b755534ba7",
@@ -108,8 +112,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "./static/media/leetcodeParties.b6917e15.jpg"
   },
   {
-    "revision": "33b55eaf68c697b6b4593bc8739e949a",
-    "url": "./static/media/mealMovers.33b55eaf.png"
+    "revision": "3df94a15d67e67bfdee92bc1837ca14d",
+    "url": "./static/media/mealMovers.3df94a15.png"
   },
   {
     "revision": "b361bdf72710dd2a417235d595964cb5",
@@ -124,28 +128,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "./static/media/noble.f60a0c30.JPG"
   },
   {
+    "revision": "f237041495accea6f8e0c62b129b2ec6",
+    "url": "./static/media/pacmacro.f2370414.jpg"
+  },
+  {
     "revision": "51af990c3c9b82078331c9b36ce5cd89",
     "url": "./static/media/praneer.51af990c.JPG"
   },
   {
-    "revision": "f4c566433188a9ca4249a3dc68a311bd",
-    "url": "./static/media/projectsHeader.f4c56643.png"
+    "revision": "34e78a80cd09b3acaa94f0d3eb6438ba",
+    "url": "./static/media/projectsHeader.34e78a80.jpg"
   },
   {
     "revision": "4824612cbd9c6740e48544e127b287f3",
     "url": "./static/media/vivian.4824612c.JPG"
-  },
-  {
-    "revision": "d42edf93e1565d38a9dd624bd35fd795",
-    "url": "./static/media/whatWeDoImg1.d42edf93.png"
-  },
-  {
-    "revision": "2e96e2dba2371461988096ad86c98873",
-    "url": "./static/media/whatWeDoImg2.2e96e2db.png"
-  },
-  {
-    "revision": "ec2363c7ab6995f663e8ed3a76e8da63",
-    "url": "./static/media/whatWeDoImg3.ec2363c7.png"
   },
   {
     "revision": "70ea65d655cb16d6220010d98723ae3a",
