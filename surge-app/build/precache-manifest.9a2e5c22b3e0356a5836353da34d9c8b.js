@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e21e98578636b18c8596c1f671ea67ab",
+    "revision": "b42629ad9d378031df851f163746a652",
     "url": "./index.html"
   },
   {
-    "revision": "4d2871bd04b9be5c6e9c",
+    "revision": "feeb41ca8d547a5c69ad",
     "url": "./static/css/2.47e06e2e.chunk.css"
   },
   {
-    "revision": "ab10ade76a6bca435ee9",
-    "url": "./static/css/main.8a97e294.chunk.css"
+    "revision": "4425ce65258474f338a5",
+    "url": "./static/css/main.053af2ef.chunk.css"
   },
   {
-    "revision": "4d2871bd04b9be5c6e9c",
-    "url": "./static/js/2.9dfdeae0.chunk.js"
+    "revision": "feeb41ca8d547a5c69ad",
+    "url": "./static/js/2.0cd82f03.chunk.js"
   },
   {
     "revision": "bf23039b4e70a07c5aeb1b4010df3572",
-    "url": "./static/js/2.9dfdeae0.chunk.js.LICENSE.txt"
+    "url": "./static/js/2.0cd82f03.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ab10ade76a6bca435ee9",
-    "url": "./static/js/main.28d1c0b2.chunk.js"
+    "revision": "4425ce65258474f338a5",
+    "url": "./static/js/main.d2d5f101.chunk.js"
   },
   {
     "revision": "fd1c70d878e3672003cf",
@@ -32,12 +32,24 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "./static/media/ABOUT US.babbbcb6.png"
   },
   {
+    "revision": "6496a614abac640e814ef1cc53ab39db",
+    "url": "./static/media/Events.6496a614.jpg"
+  },
+  {
     "revision": "32a2bc0448d23bbcc4c72cf9daf4451e",
     "url": "./static/media/PROJECTSTITLE.32a2bc04.png"
   },
   {
+    "revision": "4a41a556aff00a527e9b1c3af2dd729e",
+    "url": "./static/media/Projects.4a41a556.jpg"
+  },
+  {
     "revision": "4105ba35a34fdcdd5ca94fe2f1a6cf06",
     "url": "./static/media/SURGETITLE.4105ba35.png"
+  },
+  {
+    "revision": "c6b361d8ab3acebacd360312625369ba",
+    "url": "./static/media/Workshops.c6b361d8.jpg"
   },
   {
     "revision": "d00727cf859469c8bf3bd647291139d6",
@@ -130,18 +142,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "4824612cbd9c6740e48544e127b287f3",
     "url": "./static/media/vivian.4824612c.JPG"
-  },
-  {
-    "revision": "d42edf93e1565d38a9dd624bd35fd795",
-    "url": "./static/media/whatWeDoImg1.d42edf93.png"
-  },
-  {
-    "revision": "2e96e2dba2371461988096ad86c98873",
-    "url": "./static/media/whatWeDoImg2.2e96e2db.png"
-  },
-  {
-    "revision": "ec2363c7ab6995f663e8ed3a76e8da63",
-    "url": "./static/media/whatWeDoImg3.ec2363c7.png"
   },
   {
     "revision": "70ea65d655cb16d6220010d98723ae3a",

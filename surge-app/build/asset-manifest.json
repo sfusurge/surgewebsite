@@ -1,22 +1,25 @@
 {
   "files": {
-    "main.css": "./static/css/main.8a97e294.chunk.css",
-    "main.js": "./static/js/main.28d1c0b2.chunk.js",
-    "main.js.map": "./static/js/main.28d1c0b2.chunk.js.map",
+    "main.css": "./static/css/main.053af2ef.chunk.css",
+    "main.js": "./static/js/main.d2d5f101.chunk.js",
+    "main.js.map": "./static/js/main.d2d5f101.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.25bb9f96.js",
     "runtime-main.js.map": "./static/js/runtime-main.25bb9f96.js.map",
     "static/css/2.47e06e2e.chunk.css": "./static/css/2.47e06e2e.chunk.css",
-    "static/js/2.9dfdeae0.chunk.js": "./static/js/2.9dfdeae0.chunk.js",
-    "static/js/2.9dfdeae0.chunk.js.map": "./static/js/2.9dfdeae0.chunk.js.map",
+    "static/js/2.0cd82f03.chunk.js": "./static/js/2.0cd82f03.chunk.js",
+    "static/js/2.0cd82f03.chunk.js.map": "./static/js/2.0cd82f03.chunk.js.map",
     "index.html": "./index.html",
-    "precache-manifest.a5e33d70a1fb0d97712c3a08d8f517c4.js": "./precache-manifest.a5e33d70a1fb0d97712c3a08d8f517c4.js",
+    "precache-manifest.9a2e5c22b3e0356a5836353da34d9c8b.js": "./precache-manifest.9a2e5c22b3e0356a5836353da34d9c8b.js",
     "service-worker.js": "./service-worker.js",
     "static/css/2.47e06e2e.chunk.css.map": "./static/css/2.47e06e2e.chunk.css.map",
-    "static/css/main.8a97e294.chunk.css.map": "./static/css/main.8a97e294.chunk.css.map",
-    "static/js/2.9dfdeae0.chunk.js.LICENSE.txt": "./static/js/2.9dfdeae0.chunk.js.LICENSE.txt",
+    "static/css/main.053af2ef.chunk.css.map": "./static/css/main.053af2ef.chunk.css.map",
+    "static/js/2.0cd82f03.chunk.js.LICENSE.txt": "./static/js/2.0cd82f03.chunk.js.LICENSE.txt",
     "static/media/ABOUT US.png": "./static/media/ABOUT US.babbbcb6.png",
+    "static/media/Events.jpg": "./static/media/Events.6496a614.jpg",
     "static/media/PROJECTSTITLE.png": "./static/media/PROJECTSTITLE.32a2bc04.png",
+    "static/media/Projects.jpg": "./static/media/Projects.4a41a556.jpg",
     "static/media/SURGETITLE.png": "./static/media/SURGETITLE.4105ba35.png",
+    "static/media/Workshops.jpg": "./static/media/Workshops.c6b361d8.jpg",
     "static/media/App.css": "./static/media/projectsHeader.34e78a80.jpg",
     "static/media/ali.JPG": "./static/media/ali.855be129.JPG",
     "static/media/area52.png": "./static/media/area52.19f2020b.png",
@@ -39,16 +42,13 @@
     "static/media/pacmacro.jpg": "./static/media/pacmacro.f2370414.jpg",
     "static/media/praneer.JPG": "./static/media/praneer.51af990c.JPG",
     "static/media/vivian.JPG": "./static/media/vivian.4824612c.JPG",
-    "static/media/whatWeDoImg1.png": "./static/media/whatWeDoImg1.d42edf93.png",
-    "static/media/whatWeDoImg2.png": "./static/media/whatWeDoImg2.2e96e2db.png",
-    "static/media/whatWeDoImg3.png": "./static/media/whatWeDoImg3.ec2363c7.png",
     "static/media/whoAreWe.png": "./static/media/whoAreWe.70ea65d6.png"
   },
   "entrypoints": [
     "static/js/runtime-main.25bb9f96.js",
     "static/css/2.47e06e2e.chunk.css",
-    "static/js/2.9dfdeae0.chunk.js",
-    "static/css/main.8a97e294.chunk.css",
-    "static/js/main.28d1c0b2.chunk.js"
+    "static/js/2.0cd82f03.chunk.js",
+    "static/css/main.053af2ef.chunk.css",
+    "static/js/main.d2d5f101.chunk.js"
   ]
 }
