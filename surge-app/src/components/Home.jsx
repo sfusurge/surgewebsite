@@ -47,10 +47,10 @@ class Home extends Component {
           </div>
           <div className="mobileEEIdiv">
             <Container>
-              <Row>    
-                  <div className="EEItext">
-                    <b>Engage • Empower • Innovate </b>
-                  </div>
+              <Row>
+                <div className="EEItext">
+                  <b>Engage • Empower • Innovate </b>
+                </div>
               </Row>
             </Container>
           </div>
@@ -97,7 +97,7 @@ class Home extends Component {
                           Learn more
                         </button>
                       </Link>
-                    </div>                
+                    </div>
                   </Col>
                 </Row>
               </div>
@@ -114,7 +114,7 @@ class Home extends Component {
               <Container>
                 <div className="row">
                   <div className="col-sm">
-                    <div className="whatWeDoImgs">                
+                    <div className="whatWeDoImgs">
                       <Image className="img-fluid" src={whatWeDoImg1} fluid />
                       <div className="whatWeDoImgText1">Projects</div>
                     </div>
@@ -159,17 +159,21 @@ class Home extends Component {
                         <h2 className="boldHeader">LEETCODE Parties</h2>
                         <div className="scrollableText">
                           <p className="card-text">
-                            We are excited to present our Leetcode workshops! This
-                            workshop is open to all, occuring on a weekly basis
-                            from 5pm to 6:30pm, between the Surrey and Burnaby
-                            campuses. Join us at ASB 9705 in Burnaby or SYRC 3270
-                            at Surrey!
+                            Starting June 1st, Surge will be hosting weekly
+                            LeetCode workshops online! Leetcode is an online
+                            platform that serves as a gateway to entering the
+                            professional world of the tech industry. It is an
+                            essential tool that helps students to excel in
+                            technical interviews. Our workshops will allow you
+                            to collaborate and tackle different problems of
+                            varying skill levels. Each session will be
+                            instructed by former Microsoft intern Ali Khamesy.
                           </p>
                         </div>
                         <div className="eventLink">
                           <a
                             className="boldHeader"
-                            href="https://www.facebook.com/events/568464263996888/"
+                            href="https://www.facebook.com/events/2951965301517769/"
                             target="_blank"
                             rel="noopener noreferrer"
                           >
@@ -187,9 +191,9 @@ class Home extends Component {
                           <p className="card-text">
                             Join us on Tuesday, March 31st for a showcase of the
                             projects that SFU Surge has been working hard on for
-                            the past months. Come out for food and an opportunity
-                            to see what our talented teams have been building and
-                            designing!
+                            the past months. Come out for food and an
+                            opportunity to see what our talented teams have been
+                            building and designing!
                           </p>
                         </div>
                         <div className="eventLink">

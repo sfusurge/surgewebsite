@@ -409,4 +409,19 @@ figcaption {
     margin: 20px;
     height: 40px;
   }
+
+  #moreComingBody {
+    padding-top: 30%;
+    padding-left: 10%;
+  }
+
+  #moreComingStyle {
+    text-align: center;
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 38px;
+    line-height: 48px;
+    color: #1c307a;
+  }
 }
