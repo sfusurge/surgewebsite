@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.a75d5de1.chunk.css",
-    "main.js": "/static/js/main.94fd53a7.chunk.js",
-    "main.js.map": "/static/js/main.94fd53a7.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.7824960e.js",
-    "runtime-main.js.map": "/static/js/runtime-main.7824960e.js.map",
-    "static/js/2.4db7e6fb.chunk.js": "/static/js/2.4db7e6fb.chunk.js",
-    "static/js/2.4db7e6fb.chunk.js.map": "/static/js/2.4db7e6fb.chunk.js.map",
-    "static/js/3.5b022ccd.chunk.js": "/static/js/3.5b022ccd.chunk.js",
-    "static/js/3.5b022ccd.chunk.js.map": "/static/js/3.5b022ccd.chunk.js.map",
+    "main.css": "/static/css/main.c0220497.chunk.css",
+    "main.js": "/static/js/main.3c322b0e.chunk.js",
+    "main.js.map": "/static/js/main.3c322b0e.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.f9441084.js",
+    "runtime-main.js.map": "/static/js/runtime-main.f9441084.js.map",
+    "static/js/2.9729a3eb.chunk.js": "/static/js/2.9729a3eb.chunk.js",
+    "static/js/2.9729a3eb.chunk.js.map": "/static/js/2.9729a3eb.chunk.js.map",
+    "static/js/3.9f58a76e.chunk.js": "/static/js/3.9f58a76e.chunk.js",
+    "static/js/3.9f58a76e.chunk.js.map": "/static/js/3.9f58a76e.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.a75d5de1.chunk.css.map": "/static/css/main.a75d5de1.chunk.css.map",
-    "static/js/2.4db7e6fb.chunk.js.LICENSE.txt": "/static/js/2.4db7e6fb.chunk.js.LICENSE.txt",
+    "static/css/main.c0220497.chunk.css.map": "/static/css/main.c0220497.chunk.css.map",
+    "static/js/2.9729a3eb.chunk.js.LICENSE.txt": "/static/js/2.9729a3eb.chunk.js.LICENSE.txt",
     "static/media/2019_1.png": "/static/media/2019_1.01391b7d.png",
     "static/media/2019_2.png": "/static/media/2019_2.6f5e840d.png",
     "static/media/2019_3.png": "/static/media/2019_3.78f3e40c.png",
@@ -31,6 +31,7 @@
     "static/media/bianca.png": "/static/media/bianca.e2ecdf90.png",
     "static/media/chang-institute-logo-dark.png": "/static/media/chang-institute-logo-dark.aa6021cc.png",
     "static/media/chang-institute-logo-light.png": "/static/media/chang-institute-logo-light.495c5754.png",
+    "static/media/CountdownTimer.module.css": "/static/media/clock.8ebbb185.svg",
     "static/media/close.324dfcfc.svg": "/static/media/close.324dfcfc.svg",
     "static/media/compass-program-logo-dark.png": "/static/media/compass-program-logo-dark.dc33bb29.png",
     "static/media/compass-program-logo-light.png": "/static/media/compass-program-logo-light.2b37b756.png",
@@ -85,9 +86,9 @@
     "static/media/wics-logo.png": "/static/media/wics-logo.c0fe2cbd.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.7824960e.js",
-    "static/js/2.4db7e6fb.chunk.js",
-    "static/css/main.a75d5de1.chunk.css",
-    "static/js/main.94fd53a7.chunk.js"
+    "static/js/runtime-main.f9441084.js",
+    "static/js/2.9729a3eb.chunk.js",
+    "static/css/main.c0220497.chunk.css",
+    "static/js/main.3c322b0e.chunk.js"
   ]
 }
