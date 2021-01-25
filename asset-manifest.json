@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.d0e2d089.chunk.css",
-    "main.js": "/static/js/main.b1945ae7.chunk.js",
-    "main.js.map": "/static/js/main.b1945ae7.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.f9441084.js",
-    "runtime-main.js.map": "/static/js/runtime-main.f9441084.js.map",
-    "static/js/2.b0a4d85e.chunk.js": "/static/js/2.b0a4d85e.chunk.js",
-    "static/js/2.b0a4d85e.chunk.js.map": "/static/js/2.b0a4d85e.chunk.js.map",
-    "static/js/3.9f58a76e.chunk.js": "/static/js/3.9f58a76e.chunk.js",
-    "static/js/3.9f58a76e.chunk.js.map": "/static/js/3.9f58a76e.chunk.js.map",
+    "main.css": "/static/css/main.a72f5932.chunk.css",
+    "main.js": "/static/js/main.2e29bb13.chunk.js",
+    "main.js.map": "/static/js/main.2e29bb13.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.5c66472d.js",
+    "runtime-main.js.map": "/static/js/runtime-main.5c66472d.js.map",
+    "static/js/2.00a5085b.chunk.js": "/static/js/2.00a5085b.chunk.js",
+    "static/js/2.00a5085b.chunk.js.map": "/static/js/2.00a5085b.chunk.js.map",
+    "static/js/3.d2790a5b.chunk.js": "/static/js/3.d2790a5b.chunk.js",
+    "static/js/3.d2790a5b.chunk.js.map": "/static/js/3.d2790a5b.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.d0e2d089.chunk.css.map": "/static/css/main.d0e2d089.chunk.css.map",
-    "static/js/2.b0a4d85e.chunk.js.LICENSE.txt": "/static/js/2.b0a4d85e.chunk.js.LICENSE.txt",
+    "static/css/main.a72f5932.chunk.css.map": "/static/css/main.a72f5932.chunk.css.map",
+    "static/js/2.00a5085b.chunk.js.LICENSE.txt": "/static/js/2.00a5085b.chunk.js.LICENSE.txt",
     "static/media/2019_1.png": "/static/media/2019_1.01391b7d.png",
     "static/media/2019_2.png": "/static/media/2019_2.6f5e840d.png",
     "static/media/2019_3.png": "/static/media/2019_3.78f3e40c.png",
@@ -40,6 +40,8 @@
     "static/media/ToggleButton.module.css": "/static/media/lightmodeIcon-mobile.d7e0db31.svg",
     "static/media/david.png": "/static/media/david.ae1738b8.png",
     "static/media/DesktopHome.module.css": "/static/media/desktop-splash.ade1b1a5.svg",
+    "static/media/echoAR-logo-dark.png": "/static/media/echoAR-logo-dark.6de6b046.png",
+    "static/media/echoAR-logo-light.png": "/static/media/echoAR-logo-light.aa923df9.png",
     "static/media/emma.png": "/static/media/emma.a183d5de.png",
     "static/media/SocialsIcons.module.css": "/static/media/mail-light.d92138fd.svg",
     "static/media/fair-trade-logo-dark.png": "/static/media/fair-trade-logo-dark.6d6830ea.png",
@@ -48,6 +50,8 @@
     "static/media/faqFileIcon.d5a8e36d.svg": "/static/media/faqFileIcon.d5a8e36d.svg",
     "static/media/fareed.png": "/static/media/fareed.24b08044.png",
     "static/media/fiona.png": "/static/media/fiona.22e59aab.png",
+    "static/media/fluttervalsad-logo-dark.png": "/static/media/fluttervalsad-logo-dark.e5d79b78.png",
+    "static/media/fluttervalsad-logo-light.png": "/static/media/fluttervalsad-logo-light.0c34c0eb.png",
     "static/media/grace.png": "/static/media/grace.832151cf.png",
     "static/media/harry.png": "/static/media/harry.dc5629dc.png",
     "static/media/hedgehog-logo-dark.png": "/static/media/hedgehog-logo-dark.58f6e371.png",
@@ -86,9 +90,9 @@
     "static/media/wics-logo.png": "/static/media/wics-logo.c0fe2cbd.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.f9441084.js",
-    "static/js/2.b0a4d85e.chunk.js",
-    "static/css/main.d0e2d089.chunk.css",
-    "static/js/main.b1945ae7.chunk.js"
+    "static/js/runtime-main.5c66472d.js",
+    "static/js/2.00a5085b.chunk.js",
+    "static/css/main.a72f5932.chunk.css",
+    "static/js/main.2e29bb13.chunk.js"
   ]
 }
