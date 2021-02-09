@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.d2006999.chunk.css",
-    "main.js": "/static/js/main.8822cfc8.chunk.js",
-    "main.js.map": "/static/js/main.8822cfc8.chunk.js.map",
+    "main.css": "/static/css/main.a0028c16.chunk.css",
+    "main.js": "/static/js/main.0f855142.chunk.js",
+    "main.js.map": "/static/js/main.0f855142.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.2383e41a.js",
     "runtime-main.js.map": "/static/js/runtime-main.2383e41a.js.map",
-    "static/js/2.79b94f30.chunk.js": "/static/js/2.79b94f30.chunk.js",
-    "static/js/2.79b94f30.chunk.js.map": "/static/js/2.79b94f30.chunk.js.map",
+    "static/js/2.c7cdb696.chunk.js": "/static/js/2.c7cdb696.chunk.js",
+    "static/js/2.c7cdb696.chunk.js.map": "/static/js/2.c7cdb696.chunk.js.map",
     "static/js/3.47795f42.chunk.js": "/static/js/3.47795f42.chunk.js",
     "static/js/3.47795f42.chunk.js.map": "/static/js/3.47795f42.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.d2006999.chunk.css.map": "/static/css/main.d2006999.chunk.css.map",
-    "static/js/2.79b94f30.chunk.js.LICENSE.txt": "/static/js/2.79b94f30.chunk.js.LICENSE.txt",
+    "static/css/main.a0028c16.chunk.css.map": "/static/css/main.a0028c16.chunk.css.map",
+    "static/js/2.c7cdb696.chunk.js.LICENSE.txt": "/static/js/2.c7cdb696.chunk.js.LICENSE.txt",
     "static/media/2019_1.png": "/static/media/2019_1.01391b7d.png",
     "static/media/2019_2.png": "/static/media/2019_2.6f5e840d.png",
     "static/media/2019_3.png": "/static/media/2019_3.78f3e40c.png",
@@ -26,7 +26,7 @@
     "static/media/aboutFileIcon.38cd8a23.svg": "/static/media/aboutFileIcon.38cd8a23.svg",
     "static/media/ali.png": "/static/media/ali.e946547f.png",
     "static/media/alice.png": "/static/media/alice.3acd1031.png",
-    "static/media/SideBarEvent.module.css": "/static/media/webdev-light.cf783c6a.svg",
+    "static/media/SideBarEvent.module.css": "/static/media/stormy-face.c02309bc.svg",
     "static/media/MobileHeader.module.css": "/static/media/stormhacksLogo-light.e686c513.svg",
     "static/media/bianca.png": "/static/media/bianca.e2ecdf90.png",
     "static/media/chang-institute-logo-dark.png": "/static/media/chang-institute-logo-dark.aa6021cc.png",
@@ -99,8 +99,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.2383e41a.js",
-    "static/js/2.79b94f30.chunk.js",
-    "static/css/main.d2006999.chunk.css",
-    "static/js/main.8822cfc8.chunk.js"
+    "static/js/2.c7cdb696.chunk.js",
+    "static/css/main.a0028c16.chunk.css",
+    "static/js/main.0f855142.chunk.js"
   ]
 }
